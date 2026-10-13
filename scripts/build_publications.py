@@ -637,6 +637,8 @@ def main():
         (OUTPUT_DIR / group["file"]).write_text(render_page(key, groups, generated_at), encoding="utf-8")
         print(f"Created docs/{group['file']}")
     (OUTPUT_DIR / "index.html").write_text(render_redirect(GROUPS[0]["file"]), encoding="utf-8")
+    # Tell GitHub Pages to serve these files as-is instead of running Jekyll on them.
+    (OUTPUT_DIR / ".nojekyll").write_text("", encoding="utf-8")
     print(f"Created {JSON_OUTPUT.relative_to(ROOT)}")
     if failures:
         print(f"Warnings recorded: {len(failures)}")
