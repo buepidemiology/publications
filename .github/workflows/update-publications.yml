@@ -6,7 +6,8 @@ on:
     - cron: '0 11 * * 1'   # every Monday at 11:00 UTC (7 AM Eastern in summer, 6 AM in winter)
   push:
     paths:
-      - 'data/ORCIDs.xlsx'   # rebuild right away when the roster changes
+      - 'ORCIDs.xlsx'        # rebuild right away when the roster changes
+      - 'data/ORCIDs.xlsx'
 
 permissions:
   contents: write
