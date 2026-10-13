@@ -4,7 +4,7 @@ Build the group publication pages from public ORCID records ONLY.
 The only service contacted is the ORCID public API (pub.orcid.org).
 No PubMed, Crossref, Scopus or any other source is queried.
 
-Roster:  data/ORCIDs.xlsx, one sheet per group ("Faculty", "PhD", "Post Docs").
+Roster:  ORCIDs.xlsx (top level of the repo, or in data/), one sheet per group ("Faculty", "PhD", "Post Docs").
          Column A = Name ("Last, First"), column B = ORCID iD.
          People without an ORCID iD are skipped (listed in the Action log).
 
@@ -26,7 +26,9 @@ import requests
 from openpyxl import load_workbook
 
 ROOT = Path(__file__).resolve().parents[1]
-ROSTER_PATH = ROOT / "data" / "ORCIDs.xlsx"
+# The roster may live in data/ORCIDs.xlsx or at the top level of the repo.
+ROSTER_CANDIDATES = [ROOT / "data" / "ORCIDs.xlsx", ROOT / "ORCIDs.xlsx"]
+ROSTER_PATH = next((p for p in ROSTER_CANDIDATES if p.exists()), ROSTER_CANDIDATES[0])
 OUTPUT_DIR = ROOT / "docs"
 JSON_OUTPUT = OUTPUT_DIR / "publications.json"
 
@@ -88,6 +90,8 @@ def slugify(name):
 
 
 def read_roster():
+    if not ROSTER_PATH.exists():
+        raise RuntimeError("Roster not found. Put ORCIDs.xlsx at the top of the repo or in data/.")
     workbook = load_workbook(ROSTER_PATH, read_only=True, data_only=True)
     sheets = {sheet_key(name): workbook[name] for name in workbook.sheetnames}
     roster = {}
