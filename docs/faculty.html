@@ -35,6 +35,10 @@
             background: var(--chip); color: var(--chip-text); }
     .count { color: var(--muted); font-weight: normal; font-size: 1rem; }
     .hidden { display: none; }
+    .howto { margin-top: 4rem; padding: 0.25rem 1.25rem 0.75rem; border-radius: 10px;
+             background: var(--highlight); }
+    .howto h2 { border: 0; margin-top: 0.9rem; }
+    .howto li { margin-bottom: 0.5rem; }
     #newest { margin: 1.5rem 0 1rem; padding: 0.5rem 1.25rem 0.25rem; border-radius: 10px;
               background: var(--highlight); border-left: 5px solid var(--accent); }
     #newest h2 { margin: 0.6rem 0 0.8rem; padding: 0; border: 0; }
@@ -45,8 +49,8 @@
 </head>
 <body>
   <h1>BU Epidemiology Group Publications</h1>
-  <p class="meta">Public works listed on each person's ORCID record. Last updated: 2026-10-19 11:24 UTC.</p>
-  <nav class="tabs"><a href="faculty.html" class="active">Faculty</a><a href="phd.html">PhD Students</a><a href="postdocs.html">Postdocs</a></nav>
+  <p class="meta">Public works listed on each person's ORCID record. Last updated: 2026-10-19 16:28 UTC.</p>
+  <nav class="tabs"><a href="faculty.html" class="active">Faculty</a><a href="phd.html">PhD Students</a><a href="postdocs.html">Postdocs</a><a href="staff.html">Research Staff</a></nav>
   <p class="meta">26 faculty · 3126 works</p>
   <input id="search" type="search" placeholder="Search names, titles, journals…" aria-label="Search publications">
   <section id="newest">
@@ -64,6 +68,7 @@
         <li>Michelle Flesaker, Brett Schneider, Akilah Patterson, Anthony J. Rosellini, Sarah Ketchen Lipson, Jaimie L. Gradus. <span class="title">Co-occurrence of racism-based trauma symptoms and depressive symptoms among college students of color.</span> <em>Psychological Trauma: Theory, Research, Practice, and Policy</em> (Oct 2026).<div class="publication-meta"><span class="members">Anthony Rosellini</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1037/tra0002042" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
     </ol>
   </section>
+  <p class="meta">Missing publications? <a href="#add-publications">Here’s how to add them from Google Scholar</a>.</p>
   <h2 style="border:0">Publications by person</h2>
   <ul class="jump"><li><a href="#amira-aker">Amira Aker</a> <span class="count">(44)</span></li><li><a href="#ann-ashengrau">Ann Ashengrau</a> <span class="count">(85)</span></li><li><a href="#emelia-benjamin">Emelia Benjamin</a> <span class="count">(1157)</span></li><li><a href="#julia-bond">Julia Bond</a> <span class="count">(39)</span></li><li><a href="#daniel-brooks">Daniel Brooks</a> <span class="count">(63)</span></li><li><a href="#yvette-cozier">Yvette Cozier</a> <span class="count">(48)</span></li><li><a href="#matthew-fox">Matthew Fox</a> <span class="count">(119)</span></li><li><a href="#maria-glymour">Maria Glymour</a> <span class="count">(307)</span></li><li><a href="#emily-goldmann">Emily Goldmann</a> <span class="count">(34)</span></li><li><a href="#jaimie-gradus">Jaimie Gradus</a> <span class="count">(63)</span></li><li><a href="#bernard-harlow">Bernard Harlow</a> <span class="count">(162)</span></li><li><a href="#megan-healey">Megan Healey</a> <span class="count">(3)</span></li><li><a href="#phillip-hwang">Phillip Hwang</a> <span class="count">(23)</span></li><li><a href="#katrina-kezios">Katrina Kezios</a> <span class="count">(33)</span></li><li><a href="#margaret-lind">Margaret Lind</a> <span class="count">(25)</span></li><li><a href="#collette-ncube">Collette Ncube</a> <span class="count">(20)</span></li><li><a href="#samantha-parker">Samantha Parker</a> <span class="count">(50)</span></li><li><a href="#anthony-rosellini">Anthony Rosellini</a> <span class="count">(94)</span></li><li><a href="#eric-rubenstein">Eric Rubenstein</a> <span class="count">(75)</span></li><li><a href="#koichiro-shiba">Koichiro Shiba</a> <span class="count">(32)</span></li><li><a href="#kendra-sims">Kendra Sims</a> <span class="count">(38)</span></li><li><a href="#martha-werler">Martha Werler</a> <span class="count">(175)</span></li><li><a href="#amelia-wesselink">Amelia Wesselink</a> <span class="count">(100)</span></li><li><a href="#jennifer-weuve">Jennifer Weuve</a> <span class="count">(9)</span></li><li><a href="#mary-willis">Mary Willis</a> <span class="count">(73)</span></li><li><a href="#lauren-wise">Lauren Wise</a> <span class="count">(255)</span></li></ul>
   <section class="researcher" id="amira-aker">
@@ -4550,7 +4555,29 @@
         <li><span class="title">Birth Control. In: Our Bodies, Ourselves For the New Century.</span> (Jan 1998).<div class="publication-meta"><span class="type">Standards and policy</span> · <a href="https://doi.org/not found" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
       </ol></div>
   </section>
-  <p class="meta" style="margin-top:3rem">Missing a publication? Add it to your ORCID record; it will appear after the next weekly update.</p>
+  <section id="add-publications" class="howto">
+    <h2>Missing publications? Import them from Google Scholar</h2>
+    <p>This page only shows works on your ORCID record. You can copy your whole Google Scholar
+    list into ORCID in a few minutes. Import <strong>everything</strong>: ORCID groups works it
+    already has, and this site shows each publication only once, so you don’t need to compare
+    the two lists first.</p>
+    <ol>
+      <li>Open your <a href="https://scholar.google.com/citations" target="_blank" rel="noopener noreferrer">Google Scholar profile</a>.
+      Scroll down and click <strong>Show more</strong> until every publication is listed.</li>
+      <li>Tick the checkbox at the top of the list to select all, then choose
+      <strong>Export → BibTeX</strong>. A page full of text opens in your browser.</li>
+      <li>Save that page as a file: press <strong>Ctrl + S</strong> (Windows) or
+      <strong>Cmd + S</strong> (Mac) and save it as a .txt or .bib file.</li>
+      <li>Sign in to <a href="https://orcid.org/signin" target="_blank" rel="noopener noreferrer">ORCID</a>.
+      In the <strong>Works</strong> section, choose <strong>Add → Import BibTeX</strong>
+      and select the file you saved.</li>
+      <li>Look over the list. Google Scholar sometimes includes papers by someone else with
+      a similar name, so remove any that aren’t yours. Then save the rest.</li>
+      <li>Make sure the works’ visibility is set to <strong>Everyone</strong>.
+      Private works can’t be seen by this site.</li>
+    </ol>
+    <p>New works appear here after the next Monday update.</p>
+  </section>
 
   <script>
     (function () {
