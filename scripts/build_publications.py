@@ -43,10 +43,12 @@ NEW_BADGE_DAYS = 7         # works first seen within this many days get a "New" 
 SITE_TITLE = "BU Epidemiology Group Publications"
 
 # Order here = order of the tabs on every page.
+# "sheets" lists accepted sheet names, ignoring capitals, spaces and punctuation.
 GROUPS = [
-    {"key": "faculty",  "sheet": "faculty",  "title": "Faculty",      "file": "faculty.html"},
-    {"key": "phd",      "sheet": "phd",      "title": "PhD Students", "file": "phd.html"},
-    {"key": "postdocs", "sheet": "postdocs", "title": "Postdocs",     "file": "postdocs.html"},
+    {"key": "faculty",  "sheets": ["faculty"],                "title": "Faculty",        "file": "faculty.html"},
+    {"key": "phd",      "sheets": ["phd", "phdstudents"],     "title": "PhD Students",   "file": "phd.html"},
+    {"key": "postdocs", "sheets": ["postdocs", "postdoc"],    "title": "Postdocs",       "file": "postdocs.html"},
+    {"key": "staff",    "sheets": ["researchstaff", "staff"], "title": "Research Staff", "file": "staff.html"},
 ]
 
 ORCID_PATTERN = re.compile(r"(\d{4}-\d{4}-\d{4}-\d{3}[\dXx])")
@@ -97,7 +99,7 @@ def read_roster():
     roster = {}
 
     for group in GROUPS:
-        sheet = sheets.get(group["sheet"])
+        sheet = next((sheets[name] for name in group["sheets"] if name in sheets), None)
         if sheet is None:
             raise RuntimeError(
                 f"No sheet for '{group['title']}' in {ROSTER_PATH.name}. "
@@ -427,6 +429,31 @@ def render_newest(researchers):
     return lines
 
 
+HOW_TO_ADD = """  <section id="add-publications" class="howto">
+    <h2>Missing publications? Import them from Google Scholar</h2>
+    <p>This page only shows works on your ORCID record. You can copy your whole Google Scholar
+    list into ORCID in a few minutes. Import <strong>everything</strong>: ORCID groups works it
+    already has, and this site shows each publication only once, so you don’t need to compare
+    the two lists first.</p>
+    <ol>
+      <li>Open your <a href="https://scholar.google.com/citations" target="_blank" rel="noopener noreferrer">Google Scholar profile</a>.
+      Scroll down and click <strong>Show more</strong> until every publication is listed.</li>
+      <li>Tick the checkbox at the top of the list to select all, then choose
+      <strong>Export → BibTeX</strong>. A page full of text opens in your browser.</li>
+      <li>Save that page as a file: press <strong>Ctrl + S</strong> (Windows) or
+      <strong>Cmd + S</strong> (Mac) and save it as a .txt or .bib file.</li>
+      <li>Sign in to <a href="https://orcid.org/signin" target="_blank" rel="noopener noreferrer">ORCID</a>.
+      In the <strong>Works</strong> section, choose <strong>Add → Import BibTeX</strong>
+      and select the file you saved.</li>
+      <li>Look over the list. Google Scholar sometimes includes papers by someone else with
+      a similar name, so remove any that aren’t yours. Then save the rest.</li>
+      <li>Make sure the works’ visibility is set to <strong>Everyone</strong>.
+      Private works can’t be seen by this site.</li>
+    </ol>
+    <p>New works appear here after the next Monday update.</p>
+  </section>"""
+
+
 STYLE = """
     :root { --text: #1f2937; --muted: #4b5563; --rule: #d1d5db; --accent: #0f4c81;
             --link: #0757c8; --bg: #ffffff; --chip: #edf7ed; --chip-text: #256029;
@@ -458,6 +485,10 @@ STYLE = """
             background: var(--chip); color: var(--chip-text); }
     .count { color: var(--muted); font-weight: normal; font-size: 1rem; }
     .hidden { display: none; }
+    .howto { margin-top: 4rem; padding: 0.25rem 1.25rem 0.75rem; border-radius: 10px;
+             background: var(--highlight); }
+    .howto h2 { border: 0; margin-top: 0.9rem; }
+    .howto li { margin-bottom: 0.5rem; }
     #newest { margin: 1.5rem 0 1rem; padding: 0.5rem 1.25rem 0.25rem; border-radius: 10px;
               background: var(--highlight); border-left: 5px solid var(--accent); }
     #newest h2 { margin: 0.6rem 0 0.8rem; padding: 0; border: 0; }
@@ -530,12 +561,13 @@ def render_page(group_key, groups, generated_at):
         'aria-label="Search publications">',
     ]
     lines.extend(render_newest(researchers))
+    lines.append('  <p class="meta">Missing publications? '
+                 '<a href="#add-publications">Here’s how to add them from Google Scholar</a>.</p>')
     lines.append(f'  <h2 style="border:0">Publications by person</h2>')
     lines.append(f'  <ul class="jump">{jump}</ul>')
     for person in researchers:
         lines.extend(render_researcher(person))
-    lines.append('  <p class="meta" style="margin-top:3rem">Missing a publication? '
-                 "Add it to your ORCID record; it will appear after the next weekly update.</p>")
+    lines.extend(HOW_TO_ADD.splitlines())
     lines.append(SEARCH_SCRIPT)
     lines.extend(["</body>", "</html>"])
     return "\n".join(lines)
