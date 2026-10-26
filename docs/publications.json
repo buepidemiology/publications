@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22 19:37 UTC",
+  "generated_at": "2026-10-26 11:32 UTC",
   "source": "ORCID public API v3.0 (no other sources)",
   "failures": [],
   "groups": {
@@ -53655,8 +53655,32 @@
           "orcid": "0000-0003-1459-5327",
           "slug": "jaimie-gradus",
           "status": "ok",
-          "work_count": 63,
+          "work_count": 64,
           "works": [
+            {
+              "put_code": "231049551",
+              "title": "Associations between types of residential greenspace and depressive symptoms in older adults: the Multi-Ethnic Study of Atherosclerosis",
+              "year": 2026,
+              "month": 10,
+              "day": 26,
+              "doi": "10.1093/aje/kwag278",
+              "journal": "American Journal of Epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Jeroen M van Baar",
+                "Allison James",
+                "Marco Chivardi",
+                "Kevin J Lane",
+                "Jaimie L Gradus",
+                "Lilah M Besser",
+                "Jana A Hirsch",
+                "Joel D Kaufman",
+                "Peter James",
+                "Marcia Pescador Jimenez"
+              ],
+              "url": "https://doi.org/10.1093/aje/kwag278",
+              "first_seen": "2026-10-26"
+            },
             {
               "put_code": "219362431",
               "title": "Sex‐specific associations between potentially traumatic events and cardiovascular disease in middle‐aged and older adults",
@@ -68590,24 +68614,24 @@
           "works": [
             {
               "put_code": "228357118",
-              "title": "Residential proximity to oil and gas development and socioeconomic conditions: A comparative analysis of 33 countries",
+              "title": "Residential proximity to oil and gas development and socioeconomic conditions: a comparative analysis of 33 countries",
               "year": 2026,
-              "month": 9,
-              "day": 30,
+              "month": 10,
+              "day": 28,
               "doi": "10.1088/1748-9326/aeae53",
               "journal": "Environmental Research Letters",
               "type": "journal-article",
               "authors": [
                 "Lara Schwarz",
-                "Nina Flores",
-                "David J.X. Gonzalez",
+                "Nina M Flores",
+                "David J X González",
                 "Heather McBrien",
                 "Nina Brooks",
                 "Jonathan J Buonocore",
                 "Amira Aker",
                 "Veronica Southerland",
                 "Joan A Casey",
-                "Mary Willis"
+                "Mary D Willis"
               ],
               "url": "https://doi.org/10.1088/1748-9326/aeae53",
               "first_seen": ""
@@ -82639,8 +82663,32 @@
           "orcid": "0000-0001-8567-7931",
           "slug": "jeroen-van-baar",
           "status": "ok",
-          "work_count": 22,
+          "work_count": 23,
           "works": [
+            {
+              "put_code": "231044633",
+              "title": "Associations between types of residential greenspace and depressive symptoms in older adults: the Multi-Ethnic Study of Atherosclerosis",
+              "year": 2026,
+              "month": 10,
+              "day": 22,
+              "doi": "10.1093/aje/kwag278",
+              "journal": "",
+              "type": "other",
+              "authors": [
+                "Jeroen van Baar",
+                "Allison James",
+                "Marco Chivardi",
+                "Kevin Lane",
+                "Jaimie Gradus",
+                "Lilah Besser",
+                "Jana Hirsch",
+                "Joel Kaufman",
+                "Peter James",
+                "Marcia Pescador Jimenez"
+              ],
+              "url": "https://doi.org/10.1093/aje/kwag278",
+              "first_seen": "2026-10-26"
+            },
             {
               "put_code": "221209285",
               "title": "The Neurocomputational Underpinnings of Psychological and Behavioral Responses to Unintended Harm",
