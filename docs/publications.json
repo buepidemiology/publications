@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26 11:32 UTC",
+  "generated_at": "2026-10-29 17:06 UTC",
   "source": "ORCID public API v3.0 (no other sources)",
   "failures": [],
   "groups": {
@@ -54763,8 +54763,23 @@
           "orcid": "0000-0002-6735-8862",
           "slug": "bernard-harlow",
           "status": "ok",
-          "work_count": 162,
+          "work_count": 163,
           "works": [
+            {
+              "put_code": "231449087",
+              "title": "In Remembrance: Elizabeth Gunther Stewart, MD",
+              "year": 2026,
+              "month": 10,
+              "day": 27,
+              "doi": "10.1097/lgt.0000000000000987",
+              "journal": "Journal of Lower Genital Tract Disease",
+              "type": "journal-article",
+              "authors": [
+                "Bernard L. Harlow"
+              ],
+              "url": "https://doi.org/10.1097/LGT.0000000000000987",
+              "first_seen": "2026-10-29"
+            },
             {
               "put_code": "207168143",
               "title": "The Association Between Vulvodynia and Subsequent Morbidity Across the Life Course",
@@ -82518,8 +82533,26 @@
           "orcid": "0000-0002-1493-9663",
           "slug": "jenna-tipaldo",
           "status": "ok",
-          "work_count": 6,
+          "work_count": 7,
           "works": [
+            {
+              "put_code": "231315848",
+              "title": "Equity dimensions of future vulnerabilities to climate hazards: Long-term spatial population projections for New York City consistent with Shared Socioeconomic Pathways",
+              "year": 2026,
+              "month": 11,
+              "day": 3,
+              "doi": "10.1073/pnas.2407568122",
+              "journal": "Proceedings of the National Academy of Sciences",
+              "type": "journal-article",
+              "authors": [
+                "Deborah Balk",
+                "Jenna F. Tipaldo",
+                "Leiwen Jiang",
+                "Hamidreza Zoraghein"
+              ],
+              "url": "https://doi.org/10.1073/pnas.2407568122",
+              "first_seen": "2026-10-29"
+            },
             {
               "put_code": "185875531",
               "title": "Considerations for Communication of Climate Health Risk Related to Flooding and Other Hazards in Cities",
@@ -82670,19 +82703,19 @@
               "title": "Associations between types of residential greenspace and depressive symptoms in older adults: the Multi-Ethnic Study of Atherosclerosis",
               "year": 2026,
               "month": 10,
-              "day": 22,
+              "day": 26,
               "doi": "10.1093/aje/kwag278",
-              "journal": "",
-              "type": "other",
+              "journal": "American Journal of Epidemiology",
+              "type": "journal-article",
               "authors": [
-                "Jeroen van Baar",
+                "Jeroen M van Baar",
                 "Allison James",
                 "Marco Chivardi",
-                "Kevin Lane",
-                "Jaimie Gradus",
-                "Lilah Besser",
-                "Jana Hirsch",
-                "Joel Kaufman",
+                "Kevin J Lane",
+                "Jaimie L Gradus",
+                "Lilah M Besser",
+                "Jana A Hirsch",
+                "Joel D Kaufman",
                 "Peter James",
                 "Marcia Pescador Jimenez"
               ],
@@ -83559,7 +83592,7 @@
           "orcid": "0000-0003-0537-9729",
           "slug": "sam-rosenberg",
           "status": "ok",
-          "work_count": 26,
+          "work_count": 24,
           "works": [
             {
               "put_code": "230485642",
@@ -83636,20 +83669,7 @@
                 "Samuel Rosenberg",
                 "Josue Estrada"
               ],
-              "url": "",
-              "first_seen": "2026-10-19"
-            },
-            {
-              "put_code": "230490112",
-              "title": "Re: Fertility Rates Among Women With Intellectual and Developmental Disability Enrolled in Medicaid and/or Medicare, 2011–2022",
-              "year": 2026,
-              "month": 3,
-              "day": 0,
-              "doi": "10.1111/ppe.70136",
-              "journal": "Paediatric and Perinatal Epidemiology",
-              "type": "journal-article",
-              "authors": [],
-              "url": "http://dx.doi.org/10.1111/ppe.70136",
+              "url": "https://cdn.ymaws.com/www.autism-insar.org/resource/resmgr/2026_annual_meeting/INSAR2026_Program_Book_as_of.pdf",
               "first_seen": "2026-10-19"
             },
             {
@@ -83896,29 +83916,6 @@
               "first_seen": "2026-10-19"
             },
             {
-              "put_code": "230487002",
-              "title": "What was the impact of tobacco taxes on smoking prevalence and coronary heart disease mortality in the United States −2005-2016, and did it vary by race and gender?",
-              "year": 2023,
-              "month": 10,
-              "day": 0,
-              "doi": "10.1016/j.ypmed.2023.107653",
-              "journal": "Preventive Medicine",
-              "type": "journal-article",
-              "authors": [
-                "Gregory H. Cohen",
-                "Jacob Bor",
-                "Katherine M. Keyes",
-                "Ryan T. Demmer",
-                "Steven D. Stellman",
-                "Victor Puac-Polanco",
-                "Sandro Galea",
-                "Samuel Bruno Rosenberg",
-                "Shailesh Tamrakar"
-              ],
-              "url": "http://dx.doi.org/10.1016/j.ypmed.2023.107653",
-              "first_seen": "2026-10-19"
-            },
-            {
               "put_code": "117250642",
               "title": "What matters for health? Public views from eight countries",
               "year": 2022,
@@ -83957,6 +83954,32 @@
               "first_seen": "2026-10-19"
             },
             {
+              "put_code": "231398491",
+              "title": "Short-Term Weight Loss Undermines Brain Regulation of Food Consumption",
+              "year": 2018,
+              "month": 7,
+              "day": 1,
+              "doi": "10.2337/db18-1802-p",
+              "journal": "Diabetes",
+              "type": "journal-article",
+              "authors": [
+                "WAI LAM",
+                "DONGJU SEO",
+                "CHERYL LACADIE",
+                "CHRISTIAN P. SCHMIDT",
+                "SAMUEL ROSENBERG",
+                "HAI HOANG",
+                "JANICE HWANG",
+                "TODD CONSTABLE",
+                "MARY SAVOYE",
+                "RAJITA SINHA",
+                "ROBERT SHERWIN",
+                "RENATA BELFORT-DEAGUIAR"
+              ],
+              "url": "http://dx.doi.org/10.2337/db18-1802-p",
+              "first_seen": "2026-10-29"
+            },
+            {
               "put_code": "230485779",
               "title": "Hyperinsulinemia Invokes Greater Brain Perfusion in Reward and Motivation Regions in Obesity",
               "year": 2018,
@@ -83986,31 +84009,6 @@
               "first_seen": "2026-10-19"
             },
             {
-              "put_code": "230486213",
-              "title": "Short-Term Weight Loss Undermines Brain Regulation of Food Consumption",
-              "year": 2018,
-              "month": 0,
-              "day": 0,
-              "doi": "",
-              "journal": "Diabetes",
-              "type": "journal-article",
-              "authors": [
-                "Lam, Wai",
-                "Seo, Dongju",
-                "Lacadie, Cheryl",
-                "Schmidt, Christian P",
-                "Rosenberg, Samuel",
-                "Hoang, Hai",
-                "Hwang, Janice",
-                "Constable, Todd",
-                "Savoye, Mary",
-                "Sinha, Rajita",
-                "others"
-              ],
-              "url": "",
-              "first_seen": "2026-10-19"
-            },
-            {
               "put_code": "230486211",
               "title": "Stress-Level Increments in Peripheral Glucocorticoids Affect Brain Regions that Regulate Feeding",
               "year": 2017,
@@ -84032,7 +84030,7 @@
                 "Constable, Todd",
                 "others"
               ],
-              "url": "",
+              "url": "https://doi.org/10.2337/db17-1871-2152",
               "first_seen": "2026-10-19"
             },
             {
@@ -84057,7 +84055,7 @@
                 "Constable, Todd",
                 "others"
               ],
-              "url": "",
+              "url": "https://doi.org/10.2337/db17-1-380",
               "first_seen": "2026-10-19"
             },
             {
@@ -84082,7 +84080,7 @@
                 "Sinha, Rajita",
                 "others"
               ],
-              "url": "",
+              "url": "https://doi.org/10.2337/db17-1871-2152",
               "first_seen": "2026-10-19"
             },
             {
@@ -84107,7 +84105,7 @@
                 "Constable, R Todd",
                 "others"
               ],
-              "url": "",
+              "url": "https://professional.diabetes.org/sites/default/files/media/2017_ada_lb_abstracts_highres.pdf",
               "first_seen": "2026-10-19"
             },
             {
@@ -84132,12 +84130,1534 @@
                 "Hwang, Janice J",
                 "others"
               ],
-              "url": "",
+              "url": "https://doi.org/10.2337/db17-1-380",
               "first_seen": "2026-10-19"
             }
           ]
         }
       ]
     }
-  }
+  },
+  "collaborations": [
+    {
+      "title": "Discrimination and risk of spontaneous abortion in a preconception cohort study",
+      "year": 2026,
+      "doi": "10.1016/j.socscimed.2026.119820",
+      "groups": [
+        "Faculty",
+        "PhD Students",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Collette Ncube",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Molly Hoffman",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Associations between types of residential greenspace and depressive symptoms in older adults: the Multi-Ethnic Study of Atherosclerosis",
+      "year": 2026,
+      "doi": "10.1093/aje/kwag278",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Jaimie Gradus",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Jeroen van Baar",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Association Between Caffeinated Beverage Intake and Semen Quality in a Preconception Cohort",
+      "year": 2026,
+      "doi": "10.1111/andr.70415",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sachelly Julian-Serrano",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sex‐specific associations between potentially traumatic events and cardiovascular disease in middle‐aged and older adults",
+      "year": 2026,
+      "doi": "10.1002/jts.70103",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Jaimie Gradus",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sophie Selbe",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Differential Associations of Maternal Factors With Anotia and Microtia Laterality in a North American Case–Control Study",
+      "year": 2026,
+      "doi": "10.1002/bdr2.70123",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Samantha Parker",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Molly Hoffman",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sharon Casey",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Co-occurrence of racism-based trauma symptoms and depressive symptoms among college students of color.",
+      "year": 2026,
+      "doi": "10.1037/tra0002042",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Anthony Rosellini",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Michelle Flesaker",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Residential Segregation and Fecundability in the Black Women’s Health Study",
+      "year": 2026,
+      "doi": "10.1093/aje/kwag229",
+      "groups": [
+        "Faculty",
+        "PhD Students",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Yvette Cozier",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Chen Sheng",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Brief Report: Alzheimer’s Disease and Related Dementia in People With Intellectually Disability in the United States",
+      "year": 2026,
+      "doi": "10.1080/19447515.2026.2712358",
+      "groups": [
+        "Faculty",
+        "Research Staff"
+      ],
+      "people": [
+        {
+          "name": "Eric Rubenstein",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sam Rosenberg",
+          "groups": [
+            "Research Staff"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Statistical software skills for master’s-level jobs in epidemiology: an analysis of 15 years of job posting data",
+      "year": 2026,
+      "doi": "10.1093/aje/kwaf243",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Emily Goldmann",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Ruby Barnard-Mayers",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Medicaid home and community based services are vital for adults with intellectual and developmental disabilities: A descriptive study of service use among all adult enrollees, 2022",
+      "year": 2026,
+      "doi": "10.1016/j.dhjo.2026.102058",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Eric Rubenstein",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Josue Estrada",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Stress Disorders and Human Papillomavirus-Related Cancer Rates: A Population-Based Cohort Study in Denmark",
+      "year": 2026,
+      "doi": "10.2147/clep.s596452",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Jaimie Gradus",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sarah Weber",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sharon Casey",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Differential Effects of Maternal Exposures on Clubfoot Laterality: A Case–Control Study",
+      "year": 2026,
+      "doi": "10.1002/bdr2.70076",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Samantha Parker",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Molly Hoffman",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sharon Casey",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Use of chemical hair straighteners in relation to incidence and growth of uterine leiomyomata: a prospective ultrasound study",
+      "year": 2026,
+      "doi": "10.1093/aje/kwaf286",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Warm season hourly temperature and psychiatric emergencies: A case-crossover study of a vulnerable population in Boston, 2005-2019.",
+      "year": 2026,
+      "doi": "10.1097/ee9.0000000000000478",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Kaylin Vrkljan",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Residential proximity to oil and gas development and risk of gestational diabetes mellitus",
+      "year": 2026,
+      "doi": "10.1093/ije/dyag081",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Kaylin Vrkljan",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Type 1 Diabetes and Incident Dementia: An Analysis in the All of Us Cohort",
+      "year": 2026,
+      "doi": "10.1212/wnl.0000000000214805",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Kendra Sims",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Audrey Murchland",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "A prospective study of periconceptional perceived stress and rate of miscarriage",
+      "year": 2026,
+      "doi": "10.1093/humrep/deaf243",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Childhood adversity and spontaneous abortion in a North American preconception cohort study",
+      "year": 2026,
+      "doi": "10.1093/aje/kwaf246",
+      "groups": [
+        "Faculty",
+        "PhD Students",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Collette Ncube",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Molly Hoffman",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "A preconception cohort study of historical mortgage lending discrimination and present-day fecundability",
+      "year": 2026,
+      "doi": "10.1093/aje/kwaf237",
+      "groups": [
+        "Faculty",
+        "PhD Students",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Kaylin Vrkljan",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Oil and Gas Development and Adverse Birth Outcomes: A Qualitative and Quantitative Bias Analysis of the Epidemiologic Literature.",
+      "year": 2026,
+      "doi": "10.1007/s40572-026-00526-w",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Amira Aker",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Julia Bond",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Kaylin Vrkljan",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Associations of unmet dental care needs due to cost with incident cardiovascular disease and dementia: a prospective study in the All of Us cohort",
+      "year": 2026,
+      "doi": "10.1093/gerona/glag023",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Jennifer Weuve",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Kendra Sims",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Audrey Murchland",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fertility Rates Among Women With Intellectual and Developmental Disability Enrolled in Medicaid and/or Medicare, 2011–2022",
+      "year": 2026,
+      "doi": "10.1111/ppe.70121",
+      "groups": [
+        "Faculty",
+        "PhD Students",
+        "Research Staff"
+      ],
+      "people": [
+        {
+          "name": "Collette Ncube",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Samantha Parker",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Alianna Higgins",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Josue Estrada",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sam Rosenberg",
+          "groups": [
+            "Research Staff"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Racialized economic segregation in relation to fecundability in a preconception cohort study",
+      "year": 2026,
+      "doi": "10.1007/s11524-025-01038-y",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Collette Ncube",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Yvette Cozier",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Occurrence of Obstructive Sleep Apnea and Its Association With Alzheimer Dementia in Medicaid‐Enrolled Adults With Down Syndrome, 2011–2019",
+      "year": 2026,
+      "doi": "10.1002/ajmg.a.64241",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Eric Rubenstein",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Alianna Higgins",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Climate resilience adaptation and psychiatric emergency services utilization during extreme heat in Boston, MA: a difference-in-differences analysis",
+      "year": 2026,
+      "doi": "10.1016/j.envint.2025.110007",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Kaylin Vrkljan",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "A prospective study of semen quality and fecundability among North American couples planning pregnancy",
+      "year": 2026,
+      "doi": "10.1111/andr.70084",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Neighborhood disadvantage and fecundability in a cohort of US Black women",
+      "year": 2025,
+      "doi": "10.1097/ee9.0000000000000428",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Chen Sheng",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Life Course Financial Hardship and Fecundability in a North American Preconception Cohort Study",
+      "year": 2025,
+      "doi": "10.1097/ede.0000000000001900",
+      "groups": [
+        "Faculty",
+        "PhD Students",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Collette Ncube",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Molly Hoffman",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Incident traumatic experiences and poor financial well‐being: A double hit for cognitive decline?",
+      "year": 2025,
+      "doi": "10.1002/dad2.70226",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Katrina Kezios",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Audrey Murchland",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Medicaid Home and Community Based Services are vital for adults with intellectual and developmental disabilities",
+      "year": 2025,
+      "doi": "10.1101/2025.09.10.25335499",
+      "groups": [
+        "Faculty",
+        "PhD Students",
+        "Research Staff"
+      ],
+      "people": [
+        {
+          "name": "Eric Rubenstein",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Alianna Higgins",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Josue Estrada",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sam Rosenberg",
+          "groups": [
+            "Research Staff"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sex Differences in Antihypertensive Medications and PTSD Incidence",
+      "year": 2025,
+      "doi": "10.2147/clep.s533048",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Jaimie Gradus",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sophie Selbe",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cognitive data harmonization across two racially diverse cohorts in the United States",
+      "year": 2025,
+      "doi": "10.1002/bsa3.70037",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Maria Glymour",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Michelle Flesaker",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "A Case‐Crossover Study of Extreme Heat and Psychiatric Emergency Encounters Among Vulnerable Pregnant People",
+      "year": 2025,
+      "doi": "10.1111/ppe.70044",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Samantha Parker",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Kaylin Vrkljan",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Racial and ethnic disparities in fecundability: a North American preconception cohort study",
+      "year": 2025,
+      "doi": "10.1093/humrep/deaf067",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Modelling Predictors of Homophily on Perceived Oral Health Status Among Social Network Ties in a Population of Public Housing Residents",
+      "year": 2025,
+      "doi": "10.1111/cdoe.13034",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Julia Bond",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sharon Casey",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Agreement between the National Cancer Institute’s Diet History Questionnaire II and III in a preconception cohort",
+      "year": 2025,
+      "doi": "10.1093/aje/kwae203",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sachelly Julian-Serrano",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Intimate partner violence and cognitive functioning – toward quantifying dementia risk",
+      "year": 2025,
+      "doi": "10.1002/alz.70029",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Maria Glymour",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Audrey Murchland",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Epidemiology of Alzheimer Disease and Related Dementia Among Medicare and Medicaid Enrolled Autistic Adults, 2011–2019",
+      "year": 2025,
+      "doi": "10.1002/aur.70035",
+      "groups": [
+        "Faculty",
+        "PhD Students",
+        "Research Staff"
+      ],
+      "people": [
+        {
+          "name": "Eric Rubenstein",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Alianna Higgins",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Josue Estrada",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sam Rosenberg",
+          "groups": [
+            "Research Staff"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Statistical harmonization of versions of measures across studies using external data: Self-rated health and self-rated memory",
+      "year": 2025,
+      "doi": "10.1016/j.annepidem.2025.01.002",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Maria Glymour",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Yingyan Wu",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Doubly Marginalized: The Interplay of Racism and Disability in Outcomes for Minoritized People With Down Syndrome",
+      "year": 2025,
+      "doi": "10.1097/ede.0000000000001789",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Eric Rubenstein",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Alianna Higgins",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Historical neighborhood redlining and fertility in a cohort of U.S. Black women",
+      "year": 2025,
+      "doi": "10.1097/ede.0000000000001942",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Kendra Sims",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Chen Sheng",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "A prospective cohort study of persistent endocrine-disrupting chemicals and perceived stress",
+      "year": 2024,
+      "doi": "10.1093/aje/kwae088",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Childhood adversity and time to pregnancy in a preconception cohort",
+      "year": 2024,
+      "doi": "10.1093/aje/kwae085",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Collette Ncube",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Residential Proximity to Oil and Gas Development and Mental Health in a North American Preconception Cohort Study: 2013–2023",
+      "year": 2024,
+      "doi": "10.2105/ajph.2024.307730",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sophie Selbe",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The impact of relationship type and closeness on mental health following suicide loss",
+      "year": 2024,
+      "doi": "10.1111/sltb.13063",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Anthony Rosellini",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Jaimie Gradus",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Michelle Flesaker",
+          "groups": [
+            "PhD Students"
+          ]
+        },
+        {
+          "name": "Sophie Selbe",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sex Differences in Psychopathology Following Potentially Traumatic Experiences.",
+      "year": 2024,
+      "doi": "10.1001/jamanetworkopen.2024.0201",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Anthony Rosellini",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sophie Selbe",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Comparison of Imputation Strategies for Incomplete Longitudinal Data in Life-Course Epidemiology.",
+      "year": 2023,
+      "doi": "10.1093/aje/kwad139",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Maria Glymour",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Yingyan Wu",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "COVID-19 vaccination and menstrual cycle characteristics: A prospective cohort study",
+      "year": 2023,
+      "doi": "10.1016/j.vaccine.2023.06.012",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bias analysis of childhood trauma and probable post-traumatic stress disorder",
+      "year": 2022,
+      "doi": "10.1016/j.annepidem.2022.06.009",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Amelia Wesselink",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Jaimie Gradus",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Lauren Wise",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Sharonda Lovett",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "A systematic review of quantitative bias analysis applied to epidemiological research",
+      "year": 2021,
+      "doi": "10.1093/ije/dyab061",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Matthew Fox",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Ruby Barnard-Mayers",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Estimating the effects of Mexico to U.S. migration on elevated depressive symptoms: evidence from pooled cross-national cohorts.",
+      "year": 2021,
+      "doi": "10.1016/j.annepidem.2021.08.014",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Maria Glymour",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Audrey Murchland",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Assessing knowledge, attitudes, and practices towards causal directed acyclic graphs: a qualitative research project",
+      "year": 2021,
+      "doi": "10.1007/s10654-021-00771-3",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Matthew Fox",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Ruby Barnard-Mayers",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quantifying Lifecourse Drivers of International Migration: A Cross-national Analysis of Mexico and the United States.",
+      "year": 2021,
+      "doi": "10.1097/ede.0000000000001266",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Maria Glymour",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Audrey Murchland",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "State School Policies as Predictors of Physical and Mental Health: A Natural Experiment in the REGARDS Cohort.",
+      "year": 2020,
+      "doi": "10.1093/aje/kwz221",
+      "groups": [
+        "Faculty",
+        "Postdocs"
+      ],
+      "people": [
+        {
+          "name": "Maria Glymour",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Audrey Murchland",
+          "groups": [
+            "Postdocs"
+          ]
+        }
+      ]
+    }
+  ]
 }

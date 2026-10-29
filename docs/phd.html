@@ -35,6 +35,16 @@
             background: var(--chip); color: var(--chip-text); }
     .count { color: var(--muted); font-weight: normal; font-size: 1rem; }
     .hidden { display: none; }
+    .filters { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.8rem 0 1rem; }
+    .filters button { font: inherit; font-size: 0.9rem; padding: 0.3rem 0.8rem; border-radius: 999px;
+                      border: 1px solid var(--rule); background: var(--bg); color: var(--text); cursor: pointer; }
+    .filters button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+    .role { display: inline-block; border-radius: 4px; padding: 0 0.35rem; font-size: 0.78rem;
+            font-weight: normal; color: var(--text); background: rgba(107, 114, 128, 0.18); }
+    .role-faculty { background: rgba(15, 76, 129, 0.18); }
+    .role-phd { background: rgba(37, 130, 60, 0.20); }
+    .role-postdocs { background: rgba(180, 83, 9, 0.20); }
+    .role-staff { background: rgba(126, 34, 206, 0.18); }
     .howto { margin-top: 4rem; padding: 0.25rem 1.25rem 0.75rem; border-radius: 10px;
              background: var(--highlight); }
     .howto h2 { border: 0; margin-top: 0.9rem; }
@@ -49,8 +59,8 @@
 </head>
 <body>
   <h1>BU Epidemiology Group Publications</h1>
-  <p class="meta">Public works listed on each person's ORCID record. Last updated: 2026-10-26 11:32 UTC.</p>
-  <nav class="tabs"><a href="faculty.html">Faculty</a><a href="phd.html" class="active">PhD Students</a><a href="postdocs.html">Postdocs</a><a href="staff.html">Research Staff</a></nav>
+  <p class="meta">Public works listed on each person's ORCID record. Last updated: 2026-10-29 17:06 UTC.</p>
+  <nav class="tabs"><a href="faculty.html">Faculty</a><a href="phd.html" class="active">PhD Students</a><a href="postdocs.html">Postdocs</a><a href="staff.html">Research Staff</a><a href="collaborations.html">Collaborations</a></nav>
   <p class="meta">30 phd students · 277 works</p>
   <input id="search" type="search" placeholder="Search names, titles, journals…" aria-label="Search publications">
   <section id="newest">
@@ -352,24 +362,24 @@
     <p class="orcid">ORCID: <a href="https://orcid.org/0000-0003-0593-493X" target="_blank" rel="noopener noreferrer">0000-0003-0593-493X</a></p>
     <div class="year"><h3>2025</h3>
       <ol>
-        <li><span class="title">Use of the Brain Care Score to Estimate the Risk of Incident Cerebrovascular Events in Middle-Aged Women.</span> <em>NEUROLOGY</em> (2025).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1212/wnl.0000000000213674" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
-        <li><span class="title">US public perceptions on whether risk of dementia and stroke can be modified through maintaining or changing lifestyle.</span> <em>BMC PUBLIC HEALTH</em> (2025).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1186/s12889-025-25077-x" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
-        <li><span class="title">Sleep quality and efficiency in adults with post-acute sequelae of COVID-19.</span> <em>SLEEP ADVANCES</em> (2025).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1093/sleepadvances/zpaf051" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
-        <li><span class="title">Modifiable risk factors for stroke, dementia and late-life depression: a systematic review and DALY-weighted risk factors for a composite outcome.</span> <em>JOURNAL OF NEUROLOGY NEUROSURGERY AND PSYCHIATRY</em> (2025).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1136/jnnp-2024-334925" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
-        <li><span class="title">A Brain Care Score for Risk of Late-life Depression: Data from the UK Biobank Cohort.</span> <em>NEUROLOGY</em> (2025).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1212/wnl.0000000000205616" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li><span class="title">Use of the Brain Care Score to Estimate the Risk of Incident Cerebrovascular Events in Middle-Aged Women.</span> <em>NEUROLOGY</em> (2025).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.1212/wnl.0000000000213674" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li><span class="title">US public perceptions on whether risk of dementia and stroke can be modified through maintaining or changing lifestyle.</span> <em>BMC PUBLIC HEALTH</em> (2025).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.1186/s12889-025-25077-x" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li><span class="title">Sleep quality and efficiency in adults with post-acute sequelae of COVID-19.</span> <em>SLEEP ADVANCES</em> (2025).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.1093/sleepadvances/zpaf051" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li><span class="title">Modifiable risk factors for stroke, dementia and late-life depression: a systematic review and DALY-weighted risk factors for a composite outcome.</span> <em>JOURNAL OF NEUROLOGY NEUROSURGERY AND PSYCHIATRY</em> (2025).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.1136/jnnp-2024-334925" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li><span class="title">A Brain Care Score for Risk of Late-life Depression: Data from the UK Biobank Cohort.</span> <em>NEUROLOGY</em> (2025).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.1212/wnl.0000000000205616" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
       </ol></div>
     <div class="year"><h3>2024</h3>
       <ol>
-        <li><span class="title">The predictive validity of a Brain Care Score for late-life depression and a composite outcome of dementia, stroke, and late-life depression: data from the UK Biobank cohort.</span> <em>FRONTIERS IN PSYCHIATRY</em> (2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.3389/fpsyt.2024.1373797" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
-        <li><span class="title">Modifiable Risk Factors for Stroke, Dementia, and Late-Life Depression: A Systematic Review and DALY Weighted Risk Factors for a Composite Outcome.</span> <em>medRxiv</em> (2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1101/2024.07.08.24309905" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
-        <li><span class="title">Modifiable Risk Factors for Stroke, Dementia, and Late-Life Depression: A Systematic Review and Composite Brain Health Model Development.</span> <em>ANNALS OF NEUROLOGY</em> (2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:001365072300165" target="_blank" rel="noopener noreferrer">View record</a></div></li>
-        <li><span class="title">Association Between a Brain Care Score and Risk of Cerebrovascular Events in American Women.</span> <em>CIRCULATION</em> (2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1161/circ.149.suppl_1.p243" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li><span class="title">The predictive validity of a Brain Care Score for late-life depression and a composite outcome of dementia, stroke, and late-life depression: data from the UK Biobank cohort.</span> <em>FRONTIERS IN PSYCHIATRY</em> (2024).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.3389/fpsyt.2024.1373797" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li><span class="title">Modifiable Risk Factors for Stroke, Dementia, and Late-Life Depression: A Systematic Review and DALY Weighted Risk Factors for a Composite Outcome.</span> <em>medRxiv</em> (2024).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.1101/2024.07.08.24309905" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li><span class="title">Modifiable Risk Factors for Stroke, Dementia, and Late-Life Depression: A Systematic Review and Composite Brain Health Model Development.</span> <em>ANNALS OF NEUROLOGY</em> (2024).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:001365072300165" target="_blank" rel="noopener noreferrer">View record</a></div></li>
+        <li><span class="title">Association Between a Brain Care Score and Risk of Cerebrovascular Events in American Women.</span> <em>CIRCULATION</em> (2024).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.1161/circ.149.suppl_1.p243" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
       </ol></div>
     <div class="year"><h3>2023</h3>
       <ol>
         <li><span class="title">The predictive validity of a Brain Care Score for dementia and stroke: data from the UK Biobank cohort.</span> <em>FRONTIERS IN NEUROLOGY</em> (2023).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.3389/fneur.2023.1291020" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
         <li><span class="title">The impact of COVID-19 on older minority adults in the United States: challenges and potential solutions.</span> <em>PSYCHOGERIATRICS</em> (2023).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.1111/psyg.13005" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
-        <li><span class="title">Cerebral Small Vessel Disease Subtypes and Blood Pressure Control after Intracerebral Hemorrhage.</span> <em>NEUROLOGY</em> (2023).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1212/wnl.0000000000203594" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li><span class="title">Cerebral Small Vessel Disease Subtypes and Blood Pressure Control after Intracerebral Hemorrhage.</span> <em>NEUROLOGY</em> (2023).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.1212/wnl.0000000000203594" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
       </ol></div>
     <div class="year"><h3>2022</h3>
       <ol>
@@ -382,12 +392,12 @@
       </ol></div>
     <div class="year"><h3>2020</h3>
       <ol>
-        <li><span class="title">Associations Between Daily Steps, Stepping Cadence, And Arterial Stiffness In Older Adults.</span> <em>MEDICINE &amp; SCIENCE IN SPORTS &amp; EXERCISE</em> (2020).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:000590026302097" target="_blank" rel="noopener noreferrer">View record</a></div></li>
+        <li><span class="title">Associations Between Daily Steps, Stepping Cadence, And Arterial Stiffness In Older Adults.</span> <em>MEDICINE &amp; SCIENCE IN SPORTS &amp; EXERCISE</em> (2020).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:000590026302097" target="_blank" rel="noopener noreferrer">View record</a></div></li>
       </ol></div>
     <div class="year"><h3>2019</h3>
       <ol>
-        <li><span class="title">The porcine biomodel in translational medical research: from biomodel to human lung transplantation.</span> <em>BIOMEDICA</em> (2019).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:000449549800002" target="_blank" rel="noopener noreferrer">View record</a></div></li>
-        <li><span class="title">Effects of Arterial Stiffness Between Objectively Measured Physical Activity and Domain-Specific Cognition in Older Adults.</span> <em>MEDICINE AND SCIENCE IN SPORTS AND EXERCISE</em> (2019).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1249/01.mss.0000561174.83886.f8" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li><span class="title">The porcine biomodel in translational medical research: from biomodel to human lung transplantation.</span> <em>BIOMEDICA</em> (2019).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:000449549800002" target="_blank" rel="noopener noreferrer">View record</a></div></li>
+        <li><span class="title">Effects of Arterial Stiffness Between Objectively Measured Physical Activity and Domain-Specific Cognition in Older Adults.</span> <em>MEDICINE AND SCIENCE IN SPORTS AND EXERCISE</em> (2019).<div class="publication-meta"><span class="type">Journal article</span> · <a href="https://doi.org/10.1249/01.mss.0000561174.83886.f8" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
       </ol></div>
     <div class="year"><h3>2018</h3>
       <ol>
