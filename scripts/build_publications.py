@@ -40,6 +40,12 @@ MAX_AUTHORS_SHOWN = 10     # longer author lists end with "et al."
 NEWEST_COUNT = 10          # how many works appear in "Newest publications" at the top
 NEW_BADGE_DAYS = 7         # works first seen within this many days get a "New" badge
 
+# Collaborations page: papers co-authored by members of the roster.
+COLLABORATIONS_FILE = "collaborations.html"
+COLLABORATIONS_CROSS_GROUP_ONLY = True   # True: authors must come from 2+ different groups
+                                     # False: any paper with 2+ group members
+MIN_TITLE_MATCH_LENGTH = 30          # papers without a shared DOI match on titles this long
+
 SITE_TITLE = "BU Epidemiology Group Publications"
 
 # Order here = order of the tabs on every page.
@@ -352,11 +358,13 @@ def is_new(pub):
     return (datetime.now(timezone.utc).date() - first_seen).days < NEW_BADGE_DAYS
 
 
-def render_publication(pub, members=None):
+def render_publication(pub, members=None, members_html=None, li_attrs=""):
     meta = []
     if is_new(pub):
         meta.append('<span class="new">New</span>')
-    if members:
+    if members_html:
+        meta.append(members_html)
+    elif members:
         meta.append(f'<span class="members">{html.escape(", ".join(members))}</span>')
     meta.append(f'<span class="type">{html.escape(format_type(pub["type"]))}</span>')
     if pub["doi"]:
@@ -366,7 +374,7 @@ def render_publication(pub, members=None):
         url = html.escape(pub["url"], quote=True)
         meta.append(f'<a href="{url}" target="_blank" rel="noopener noreferrer">View record</a>')
 
-    return (f'        <li>{citation_html(pub)}'
+    return (f'        <li{li_attrs}>{citation_html(pub)}'
             f'<div class="publication-meta">{" · ".join(meta)}</div></li>')
 
 
@@ -485,6 +493,16 @@ STYLE = """
             background: var(--chip); color: var(--chip-text); }
     .count { color: var(--muted); font-weight: normal; font-size: 1rem; }
     .hidden { display: none; }
+    .filters { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.8rem 0 1rem; }
+    .filters button { font: inherit; font-size: 0.9rem; padding: 0.3rem 0.8rem; border-radius: 999px;
+                      border: 1px solid var(--rule); background: var(--bg); color: var(--text); cursor: pointer; }
+    .filters button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+    .role { display: inline-block; border-radius: 4px; padding: 0 0.35rem; font-size: 0.78rem;
+            font-weight: normal; color: var(--text); background: rgba(107, 114, 128, 0.18); }
+    .role-faculty { background: rgba(15, 76, 129, 0.18); }
+    .role-phd { background: rgba(37, 130, 60, 0.20); }
+    .role-postdocs { background: rgba(180, 83, 9, 0.20); }
+    .role-staff { background: rgba(126, 34, 206, 0.18); }
     .howto { margin-top: 4rem; padding: 0.25rem 1.25rem 0.75rem; border-radius: 10px;
              background: var(--highlight); }
     .howto h2 { border: 0; margin-top: 0.9rem; }
@@ -525,17 +543,163 @@ SEARCH_SCRIPT = """
   </script>"""
 
 
+def render_tabs(current_key, groups):
+    active = ' class="active"'
+    pages = [(key, group["file"], group["title"]) for key, group in groups.items()]
+    pages.append(("collaborations", COLLABORATIONS_FILE, "Collaborations"))
+    return "".join(
+        f'<a href="{file}"{active if key == current_key else ""}>{html.escape(title)}</a>'
+        for key, file, title in pages
+    )
+
+
+def match_keys(pub):
+    """Keys that identify the same paper across different people's ORCID records."""
+    keys = []
+    if pub.get("doi"):
+        keys.append("doi:" + pub["doi"])
+    title = re.sub(r"[^a-z0-9]", "", pub["title"].lower())
+    if len(title) >= MIN_TITLE_MATCH_LENGTH:
+        keys.append("title:" + title)
+    if not keys:
+        keys.append(f"title:{title}|year:{pub['year']}")
+    return keys
+
+
+def build_highlights(groups):
+    entries, index = [], {}
+    for group_key, group in groups.items():
+        for person in group["researchers"]:
+            for pub in person["works"]:
+                keys = match_keys(pub)
+                position = next((index[k] for k in keys if k in index), None)
+                if position is None:
+                    position = len(entries)
+                    entries.append({"pub": pub, "people": {}})
+                for key in keys:
+                    index.setdefault(key, position)
+                entry = entries[position]
+                if (bool(pub["doi"]), completeness(pub)) > (bool(entry["pub"]["doi"]), completeness(entry["pub"])):
+                    entry["pub"] = pub
+                member = entry["people"].setdefault(person["orcid"], {"name": person["name"], "groups": []})
+                if group_key not in member["groups"]:
+                    member["groups"].append(group_key)
+
+    order = list(groups)
+    highlights = []
+    for entry in entries:
+        if len(entry["people"]) < 2:
+            continue
+        group_keys = {g for member in entry["people"].values() for g in member["groups"]}
+        if COLLABORATIONS_CROSS_GROUP_ONLY and len(group_keys) < 2:
+            continue
+        combo = [g for g in order if g in group_keys]
+        people = sorted(entry["people"].values(),
+                        key=lambda m: (min(order.index(g) for g in m["groups"]), m["name"]))
+        highlights.append({"pub": entry["pub"], "people": people, "combo": combo})
+
+    highlights.sort(key=lambda h: (publication_date(h["pub"]), h["pub"]["title"].lower()), reverse=True)
+    return highlights
+
+
+HIGHLIGHT_SCRIPT = """
+  <script>
+    (function () {
+      var combo = '', box = document.getElementById('search');
+      function apply() {
+        var q = box.value.trim().toLowerCase(), shown = 0;
+        document.querySelectorAll('.year').forEach(function (year) {
+          var any = false;
+          year.querySelectorAll('li').forEach(function (li) {
+            var show = (!combo || li.dataset.combo === combo) &&
+                       (!q || li.textContent.toLowerCase().indexOf(q) !== -1);
+            li.classList.toggle('hidden', !show);
+            if (show) { any = true; shown++; }
+          });
+          year.classList.toggle('hidden', !any);
+        });
+        document.getElementById('shown').textContent = shown;
+      }
+      document.querySelectorAll('.filters button').forEach(function (button) {
+        button.addEventListener('click', function () {
+          combo = button.dataset.combo;
+          document.querySelectorAll('.filters button').forEach(function (b) {
+            b.setAttribute('aria-pressed', b === button ? 'true' : 'false');
+          });
+          apply();
+        });
+      });
+      box.addEventListener('input', apply);
+    })();
+  </script>"""
+
+
+def render_highlights_page(groups, highlights, generated_at):
+    def combo_label(combo):
+        return " + ".join(groups[g]["title"] for g in combo)
+
+    counts = defaultdict(int)
+    for item in highlights:
+        counts[combo_label(item["combo"])] += 1
+    buttons = [f'<button type="button" data-combo="" aria-pressed="true">All ({len(highlights)})</button>']
+    for label, count in sorted(counts.items(), key=lambda kv: -kv[1]):
+        safe = html.escape(label, quote=True)
+        buttons.append(f'<button type="button" data-combo="{safe}" aria-pressed="false">{safe} ({count})</button>')
+
+    lines = [
+        "<!doctype html>",
+        '<html lang="en">',
+        "<head>",
+        '  <meta charset="utf-8">',
+        '  <meta name="viewport" content="width=device-width, initial-scale=1">',
+        f"  <title>Collaborations | {SITE_TITLE}</title>",
+        f"  <style>{STYLE}  </style>",
+        "</head>",
+        "<body>",
+        f"  <h1>{SITE_TITLE}</h1>",
+        f'  <p class="meta">Public works listed on each person\'s ORCID record. '
+        f"Last updated: {html.escape(generated_at)}.</p>",
+        f'  <nav class="tabs">{render_tabs("collaborations", groups)}</nav>',
+        "  <h2 style=\"border:0;margin-top:1rem\">Collaborations</h2>",
+        '  <p class="meta">Papers co-authored by members of '
+        + ("different groups" if COLLABORATIONS_CROSS_GROUP_ONLY else "the group")
+        + f' — for example a PhD student and a faculty member. Showing <span id="shown">{len(highlights)}</span> papers.</p>',
+        f'  <div class="filters">{"".join(buttons)}</div>',
+        '  <input id="search" type="search" placeholder="Search names, titles, journals…" '
+        'aria-label="Search collaborations">',
+    ]
+
+    if not highlights:
+        lines.append('  <p class="none">No co-authored papers found yet.</p>')
+    by_year = defaultdict(list)
+    for item in highlights:
+        by_year[item["pub"]["year"]].append(item)
+    for year in sorted(by_year, reverse=True):
+        lines.append(f'  <div class="year"><h3>{year if year else "Year not listed"}</h3>')
+        lines.append("    <ol>")
+        for item in by_year[year]:
+            people = ", ".join(
+                f'{html.escape(m["name"])} '
+                + " ".join(f'<span class="role role-{g}">{html.escape(groups[g]["title"])}</span>'
+                           for g in m["groups"])
+                for m in item["people"]
+            )
+            combo = html.escape(combo_label(item["combo"]), quote=True)
+            lines.append(render_publication(item["pub"], members_html=f'<span class="members">{people}</span>',
+                                            li_attrs=f' data-combo="{combo}"'))
+        lines.append("    </ol></div>")
+
+    lines.append(HIGHLIGHT_SCRIPT)
+    lines.extend(["</body>", "</html>"])
+    return "\n".join(lines)
+
+
 def render_page(group_key, groups, generated_at):
     group = groups[group_key]
     researchers = group["researchers"]
     total = sum(len(person["works"]) for person in researchers)
 
-    active = ' class="active"'
-    tabs = "".join(
-        f'<a href="{groups[key]["file"]}"{active if key == group_key else ""}>'
-        f'{html.escape(groups[key]["title"])}</a>'
-        for key in groups
-    )
+    tabs = render_tabs(group_key, groups)
     jump = "".join(
         f'<li><a href="#{person["slug"]}">{html.escape(person["name"])}</a> '
         f'<span class="count">({len(person["works"])})</span></li>'
@@ -662,16 +826,27 @@ def main():
         raise RuntimeError("Every ORCID request failed; leaving the existing pages unchanged.")
 
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    highlights = build_highlights(groups)
     JSON_OUTPUT.write_text(json.dumps({
         "generated_at": generated_at,
         "source": "ORCID public API v3.0 (no other sources)",
         "failures": failures,
         "groups": groups,
+        "collaborations": [
+            {"title": h["pub"]["title"], "year": h["pub"]["year"], "doi": h["pub"]["doi"],
+             "groups": [groups[g]["title"] for g in h["combo"]],
+             "people": [{"name": m["name"], "groups": [groups[g]["title"] for g in m["groups"]]}
+                        for m in h["people"]]}
+            for h in highlights
+        ],
     }, indent=2, ensure_ascii=False), encoding="utf-8")
 
     for key, group in groups.items():
         (OUTPUT_DIR / group["file"]).write_text(render_page(key, groups, generated_at), encoding="utf-8")
         print(f"Created docs/{group['file']}")
+    (OUTPUT_DIR / COLLABORATIONS_FILE).write_text(render_highlights_page(groups, highlights, generated_at),
+                                              encoding="utf-8")
+    print(f"Created docs/{COLLABORATIONS_FILE}: {len(highlights)} co-authored papers")
     (OUTPUT_DIR / "index.html").write_text(render_redirect(GROUPS[0]["file"]), encoding="utf-8")
     # Tell GitHub Pages to serve these files as-is instead of running Jekyll on them.
     (OUTPUT_DIR / ".nojekyll").write_text("", encoding="utf-8")
