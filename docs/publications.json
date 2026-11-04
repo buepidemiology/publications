@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02 20:38 UTC",
+  "generated_at": "2026-11-04 20:47 UTC",
   "source": "ORCID public API v3.0 (no other sources)",
   "failures": [],
   "groups": {
@@ -2158,8 +2158,54 @@
           "orcid": "0000-0003-4076-2336",
           "slug": "emelia-benjamin",
           "status": "ok",
-          "work_count": 1157,
+          "work_count": 1159,
           "works": [
+            {
+              "put_code": "232124106",
+              "title": "Distinct Sex-Associated Phenotypes of Sudden Cardiac Arrest Across Clinical, ECG, and Echocardiographic Domains: Replication in Two Communities and Comparison with the Framingham Heart Study",
+              "year": 2026,
+              "month": 11,
+              "day": 3,
+              "doi": "10.64898/2026.10.30.26366963",
+              "journal": "",
+              "type": "preprint",
+              "authors": [
+                "Thien Tan Tri Tai Truyen",
+                "Harpriya Chugh",
+                "David Nguyen",
+                "Kotoka Nakamura",
+                "Audrey Uy-Evanado",
+                "Emelia J. Benjamin",
+                "Kyndaron Reinier",
+                "Sumeet S. Chugh"
+              ],
+              "url": "https://doi.org/10.64898/2026.10.30.26366963",
+              "first_seen": "2026-11-04"
+            },
+            {
+              "put_code": "232195546",
+              "title": "Associations of Smartwatch-Derived Step Count and Active Minutes with Patient-Reported Outcomes Collected from Smartphone: electronic Framingham Heart Study (Preprint)",
+              "year": 2026,
+              "month": 11,
+              "day": 3,
+              "doi": "10.2196/preprints.116086",
+              "journal": "",
+              "type": "preprint",
+              "authors": [
+                "Musong Gao",
+                "Jie He",
+                "Nicole L. Spartano",
+                "Yuankai Zhang",
+                "Xuzhi Wang",
+                "Jian Rong",
+                "Emelia J. Benjamin",
+                "Eric Schramm",
+                "Chunyu Liu",
+                "Joanne M Murabito"
+              ],
+              "url": "https://doi.org/10.2196/preprints.116086",
+              "first_seen": "2026-11-04"
+            },
             {
               "put_code": "229052792",
               "title": "Associations of Brain Structure and Neuropsychological Function With Artificial Intelligence Estimates of Biological Vascular Age",
@@ -61636,8 +61682,31 @@
           "orcid": "0000-0002-9146-4497",
           "slug": "eric-rubenstein",
           "status": "ok",
-          "work_count": 75,
+          "work_count": 76,
           "works": [
+            {
+              "put_code": "232252314",
+              "title": "Having choices and being supported: a co-research project about independence and Down syndrome",
+              "year": 2026,
+              "month": 11,
+              "day": 4,
+              "doi": "10.1080/09687599.2026.2758240",
+              "journal": "Disability & Society",
+              "type": "journal-article",
+              "authors": [
+                "Ashley Scott",
+                "Staci Christensen",
+                "Augusta Edouard",
+                "Benjamin Golden",
+                "Eden Rapp",
+                "Kaethe Sigelko",
+                "Alexis Sokoloff",
+                "Caley Versfelt",
+                "Eric Rubenstein"
+              ],
+              "url": "https://doi.org/10.1080/09687599.2026.2758240",
+              "first_seen": "2026-11-04"
+            },
             {
               "put_code": "224410965",
               "title": "Brief Report: Alzheimer’s Disease and Related Dementia in People With Intellectually Disability in the United States",
@@ -74466,9 +74535,7 @@
     "phd": {
       "title": "PhD Students",
       "file": "phd.html",
-      "skipped": [
-        "Thomas, Hannah: no ORCID iD"
-      ],
+      "skipped": [],
       "researchers": [
         {
           "name": "Gwen Aubrac",
@@ -80171,6 +80238,14 @@
           ]
         },
         {
+          "name": "Hannah Thomas",
+          "orcid": "0000-0001-8832-1068",
+          "slug": "hannah-thomas",
+          "status": "ok",
+          "work_count": 0,
+          "works": []
+        },
+        {
           "name": "Mabeline Velez",
           "orcid": "0000-0003-1172-7873",
           "slug": "mabeline-velez",
@@ -80927,8 +81002,46 @@
           "orcid": "0000-0003-2870-6614",
           "slug": "ruby-barnard-mayers",
           "status": "ok",
-          "work_count": 10,
+          "work_count": 11,
           "works": [
+            {
+              "put_code": "209748091",
+              "title": "Trial of Labor, Vaginal Birth After Cesarean Delivery, and Planned Repeat Cesarean: Measuring the Association of Delivery Method on Postpartum Hospital Encounter in the Fourth Trimester",
+              "year": 2026,
+              "month": 12,
+              "day": 0,
+              "doi": "10.1111/birt.70068",
+              "journal": "Birth",
+              "type": "journal-article",
+              "authors": [
+                "Ruby Barnard‐Mayers",
+                "Eugene Declercq",
+                "Eleanor J. Murray",
+                "Christina D. Yarrington",
+                "Martha M. Werler"
+              ],
+              "url": "https://doi.org/10.1111/birt.70068",
+              "first_seen": ""
+            },
+            {
+              "put_code": "232106841",
+              "title": "Comorbidities and Complications: How the Association of Caesarean Delivery With Postpartum Hospital Encounters Varies by Risk Indicator",
+              "year": 2026,
+              "month": 11,
+              "day": 3,
+              "doi": "10.1111/ppe.70214",
+              "journal": "Paediatric and Perinatal Epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Ruby Barnard‐Mayers",
+                "Eugene Declercq",
+                "Eleanor J. Murray",
+                "Christina D. Yarrington",
+                "Martha M. Werler"
+              ],
+              "url": "https://doi.org/10.1111/ppe.70214",
+              "first_seen": "2026-11-04"
+            },
             {
               "put_code": "195768803",
               "title": "Statistical software skills for master’s-level jobs in epidemiology: an analysis of 15 years of job posting data",
@@ -80945,25 +81058,6 @@
                 "Megan A Healey"
               ],
               "url": "https://doi.org/10.1093/aje/kwaf243",
-              "first_seen": ""
-            },
-            {
-              "put_code": "209748091",
-              "title": "Trial of Labor, Vaginal Birth After Cesarean Delivery, and Planned Repeat Cesarean: Measuring the Association of Delivery Method on Postpartum Hospital Encounter in the Fourth Trimester",
-              "year": 2026,
-              "month": 3,
-              "day": 25,
-              "doi": "10.1111/birt.70068",
-              "journal": "Birth",
-              "type": "journal-article",
-              "authors": [
-                "Ruby Barnard‐Mayers",
-                "Eugene Declercq",
-                "Eleanor J. Murray",
-                "Christina D. Yarrington",
-                "Martha M. Werler"
-              ],
-              "url": "https://doi.org/10.1111/birt.70068",
               "first_seen": ""
             },
             {
