@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04 20:47 UTC",
+  "generated_at": "2026-11-09 21:18 UTC",
   "source": "ORCID public API v3.0 (no other sources)",
   "failures": [],
   "groups": {
@@ -70319,8 +70319,36 @@
           "orcid": "0000-0003-2138-3752",
           "slug": "lauren-wise",
           "status": "ok",
-          "work_count": 256,
+          "work_count": 257,
           "works": [
+            {
+              "put_code": "232297706",
+              "title": "Per- and poly-fluoroalkyl substances and time-to-pregnancy in two preconception cohort studies",
+              "year": 2026,
+              "month": 11,
+              "day": 0,
+              "doi": "10.1016/j.envint.2026.110594",
+              "journal": "Environment International",
+              "type": "journal-article",
+              "authors": [
+                "Lauren A. Wise",
+                "Samantha Schildroth",
+                "Amelia K. Wesselink",
+                "Anne Sofie Dam Laursen",
+                "Tine Brink Henriksen",
+                "Sidse Fog-Høyer",
+                "Lauren M. Petrick",
+                "Amith Maroli",
+                "Cathrine Thomsen",
+                "Dorte Herzke",
+                "Ganesa Wegienka",
+                "Eliza P. Pentz",
+                "Ellen M. Mikkelsen",
+                "Elizabeth E. Hatch"
+              ],
+              "url": "https://doi.org/10.1016/j.envint.2026.110594",
+              "first_seen": "2026-11-09"
+            },
             {
               "put_code": "218698479",
               "title": "Early life adversity and polycystic ovary syndrome among North American pregnancy planners",
@@ -75836,7 +75864,7 @@
               "put_code": "229498666",
               "title": "Risk and determinants of tuberculosis recurrence: a 12-year population-based cohort study",
               "year": 2026,
-              "month": 10,
+              "month": 12,
               "day": 0,
               "doi": "10.1016/j.ijid.2026.109179",
               "journal": "International Journal of Infectious Diseases",
@@ -75847,7 +75875,7 @@
                 "Silvia Cohn",
                 "Ana Angélica Bulcão Portela Lindoso",
                 "Suely Fukasava",
-                "Jonathan Eric Golub",
+                "Jonathan E. Golub",
                 "Samyra R. Cox"
               ],
               "url": "https://doi.org/10.1016/j.ijid.2026.109179",
