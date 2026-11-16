@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 21:18 UTC",
+  "generated_at": "2026-11-16 20:49 UTC",
   "source": "ORCID public API v3.0 (no other sources)",
   "failures": [],
   "groups": {
@@ -2158,8 +2158,25 @@
           "orcid": "0000-0003-4076-2336",
           "slug": "emelia-benjamin",
           "status": "ok",
-          "work_count": 1159,
+          "work_count": 1160,
           "works": [
+            {
+              "put_code": "233252567",
+              "title": "Integrating food insecurity and malnutrition care in the ICD-11 era",
+              "year": 2026,
+              "month": 11,
+              "day": 12,
+              "doi": "10.1136/bmjnph-2026-001774",
+              "journal": "BMJ Nutrition, Prevention & Health",
+              "type": "journal-article",
+              "authors": [
+                "Rebecca K Rudel",
+                "Emelia J Benjamin",
+                "David S Seres"
+              ],
+              "url": "https://doi.org/10.1136/bmjnph-2026-001774",
+              "first_seen": "2026-11-16"
+            },
             {
               "put_code": "232124106",
               "title": "Distinct Sex-Associated Phenotypes of Sudden Cardiac Arrest Across Clinical, ECG, and Echocardiographic Domains: Replication in Two Communities and Comparison with the Framingham Heart Study",
@@ -44563,8 +44580,24 @@
           "orcid": "0000-0001-9887-0634",
           "slug": "matthew-fox",
           "status": "ok",
-          "work_count": 119,
+          "work_count": 120,
           "works": [
+            {
+              "put_code": "233582561",
+              "title": "Non differential misclassification does not mean equal predictive values",
+              "year": 2026,
+              "month": 11,
+              "day": 16,
+              "doi": "10.1007/s10654-026-01482-3",
+              "journal": "European Journal of Epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Matthew P. Fox",
+                "Rachael K. Ross"
+              ],
+              "url": "https://doi.org/10.1007/s10654-026-01482-3",
+              "first_seen": "2026-11-16"
+            },
             {
               "put_code": "226176513",
               "title": "Association of attention‐deficit/hyperactivity disorder and autism with inflammatory bowel disease activity",
@@ -57163,8 +57196,25 @@
           "orcid": "0000-0001-6780-6808",
           "slug": "phillip-hwang",
           "status": "ok",
-          "work_count": 23,
+          "work_count": 24,
           "works": [
+            {
+              "put_code": "233190409",
+              "title": "Using social networks to predict cognitive resilience among adults aged ≥ 80 years: insights from the Framingham Heart Study",
+              "year": 2026,
+              "month": 11,
+              "day": 11,
+              "doi": "10.37349/emed.2026.1001436",
+              "journal": "Exploration of Medicine",
+              "type": "journal-article",
+              "authors": [
+                "Tianyu Liu",
+                "Huitong Ding",
+                "Phillip H. Hwang"
+              ],
+              "url": "https://doi.org/10.37349/emed.2026.1001436",
+              "first_seen": "2026-11-16"
+            },
             {
               "put_code": "222388300",
               "title": "Association of Weighted Composite Score of Long‐Term Variability of Vascular Risk Factors From Childhood With Midlife Cognitive Function: The Bogalusa Heart Study",
@@ -57685,7 +57735,7 @@
           "orcid": "0000-0001-7115-032X",
           "slug": "katrina-kezios",
           "status": "ok",
-          "work_count": 33,
+          "work_count": 73,
           "works": [
             {
               "put_code": "225870729",
@@ -57892,6 +57942,232 @@
               "first_seen": ""
             },
             {
+              "put_code": "233618055",
+              "title": "Understanding the exposome across the life course to promote healthy aging: consensus recommendations from the Gateway Exposome Coordinating Center",
+              "year": 2026,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Nature Aging",
+              "type": "journal-article",
+              "authors": [
+                "Lee, Jinkook",
+                "Nichols, Emma",
+                "Adar, Sara D",
+                "Knapp, David",
+                "Atshan, Samer",
+                "Avendano, Mauricio",
+                "Bindas, Ava",
+                "Brauer, Michael",
+                "Brook, Jeffrey R",
+                "Chang, Howard H",
+                "others"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618040",
+              "title": "Quantifying bias from reverse causation in observational studies of dementia risk factors: A simulation study informed by age-specific reverse Mendelian Randomization",
+              "year": 2026,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "medRxiv",
+              "type": "preprint",
+              "authors": [
+                "Wang, Jingxuan",
+                "Ackley, Sarah F",
+                "Chen, Ruijia",
+                "Kezios, Katrina L",
+                "Zeki Al Hazzouri, Adina",
+                "Blacker, Deborah",
+                "Torres, Jacqueline M",
+                "Glymour, M Maria"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233617993",
+              "title": "Layoff Experience in Adulthood and Premature Death Among US Working-Age Adults, 1979--2022",
+              "year": 2026,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "American Journal of Public Health",
+              "type": "journal-article",
+              "authors": [
+                "Yu, Xuexin",
+                "Kezios, Katrina L",
+                "Swift, Samuel L",
+                "Moropoulos, Kaylie N",
+                "Zeki Al Hazzouri, Adina"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618035",
+              "title": "How and when to use causal and associational language",
+              "year": 2026,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "bmj",
+              "type": "journal-article",
+              "authors": [
+                "Labrecque, Jeremy A",
+                "Kezios, Katrina L"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618057",
+              "title": "Household Debt and the 10 Leading Causes of US Death",
+              "year": 2026,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "American Journal of Preventive Medicine",
+              "type": "journal-article",
+              "authors": [
+                "Bruzelius, Emilie",
+                "Kezios, Katrina L"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618050",
+              "title": "Female orgasm frequency, correlates and measurement in the preconception period",
+              "year": 2026,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Sexual Health",
+              "type": "journal-article",
+              "authors": [
+                "Bond, Julia C",
+                "Schildroth, Samantha",
+                "Kezios, Katrina",
+                "Hoffman, Molly",
+                "Pukall, Caroline F",
+                "Wise, Lauren A"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618067",
+              "title": "Development and Validation of a Parsimonious Financial Well-Being Index in the Health and Retirement Study",
+              "year": 2026,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "medRxiv",
+              "type": "preprint",
+              "authors": [
+                "Habib, Mina H",
+                "Mayeda, Elizabeth Rose",
+                "Barry, Luke",
+                "Arah, Onyebuchi A",
+                "Nau, Claudia L",
+                "Zhou, Hua",
+                "Kezios, Katrina L",
+                "Nianogo, Roch A"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618060",
+              "title": "Data approaches for lifecourse research on early-life determinants of late-life health outcomes: opportunities, limitations, and tradeoffs",
+              "year": 2026,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "SSM-Population Health",
+              "type": "journal-article",
+              "authors": [
+                "Hayes-Larson, Eleanor",
+                "Amin, Suhani",
+                "Nichols, Emma",
+                "Adar, Sara D",
+                "Chiang, Yao-Yi",
+                "Flood, Sarah M",
+                "Gross, Alden L",
+                "Henn, Birgit Claus",
+                "Keller, Kayleigh P",
+                "Knapp, David",
+                "others"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618009",
+              "title": "Cumulative poverty across early adulthood and midlife cognition: findings from the national longitudinal survey of youth",
+              "year": 2026,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Journal of epidemiology and community health",
+              "type": "journal-article",
+              "authors": [
+                "Colvin, Calvin L",
+                "Moropoulos, Kaylie N",
+                "Yu, Xuexin",
+                "Elbejjani, Martine",
+                "Glymour, M Maria",
+                "Zeki Al Hazzouri, Adina",
+                "Kezios, Katrina L"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618048",
+              "title": "Constructing and analyzing a synthetic life course cohort based on pooling two data sources: A case study of early adulthood depression symptomatology and late-life cognition",
+              "year": 2026,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "medRxiv",
+              "type": "preprint",
+              "authors": [
+                "Zimmerman, Scott C",
+                "Buto, Peter",
+                "Kezios, Katrina",
+                "Zeki Al Hazzouri, Adina",
+                "Glymour, M Maria"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618070",
+              "title": "Associations between socioeconomic position index and epigenetic aging in NHANES",
+              "year": 2026,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "GeroScience",
+              "type": "journal-article",
+              "authors": [
+                "Caunca, Michelle R",
+                "Kezios, Katrina",
+                "Schneider, Andrea LC",
+                "Shen, Hanyang",
+                "Rehkopf, David H",
+                "Torres, Jacqueline M",
+                "Chen, Brian H"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
               "put_code": "199379916",
               "title": "Incident traumatic experiences and poor financial well‐being: A double hit for cognitive decline?",
               "year": 2025,
@@ -58049,6 +58325,218 @@
               "first_seen": ""
             },
             {
+              "put_code": "233618027",
+              "title": "Unsecured debt in early adulthood and premature mortality in adults in the USA: a longitudinal analysis of prospective national cohort data",
+              "year": 2025,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "The Lancet Public Health",
+              "type": "journal-article",
+              "authors": [
+                "Swift, Samuel L",
+                "Chen, Zihan",
+                "Colvin, Calvin",
+                "Kezios, Katrina",
+                "Calonico, Sebastian",
+                "Al Hazzouri, Adina Zeki"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618007",
+              "title": "The Same but Different? A Systematic Review of the Impact of Selection and Collider Bias on Internal Validity",
+              "year": 2025,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Levy, Natalie S",
+                "Kezios, Katrina L"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618020",
+              "title": "State adoption of paid sick leave and cardiovascular disease mortality among adults in the United States, 2008--2019: SL Swift et al.",
+              "year": 2025,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Journal of public health policy",
+              "type": "journal-article",
+              "authors": [
+                "Swift, Samuel L",
+                "O’Donnell, Lexi",
+                "Horn, Brady",
+                "Kezios, Katrina",
+                "Elfassy, Tali",
+                "Reagan, Julie",
+                "Zeki Al Hazzouri, Adina",
+                "Collins, Tracie"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618030",
+              "title": "Social determinants of health and biological age among diverse US Adults, NHANES 2011--2018",
+              "year": 2025,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "BMC public health",
+              "type": "journal-article",
+              "authors": [
+                "Mesa, Robert A",
+                "Llabre, Maria M",
+                "Lee, David J",
+                "Rundek, Tatjana",
+                "Kezios, Katrina L",
+                "Al Hazzouri, Adina Zeki",
+                "Elfassy, Tali"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618038",
+              "title": "Modeling approaches for estimating the effects of risk factors using longitudinal lifecourse exposure data in dementia research",
+              "year": 2025,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Alzheimer's & Dementia",
+              "type": "journal-article",
+              "authors": [
+                "Nichols, Emma",
+                "Bindas, Ava",
+                "Atshan, Samer",
+                "Chang, Howard",
+                "Chiang, Yao-Yi",
+                "Claus Henn, Birgit",
+                "Hayes-Larson, Eleanor",
+                "Keller, Kayleigh P",
+                "Kezios, Katrina L",
+                "Shih, Regina A",
+                "others"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618010",
+              "title": "Later-life cognitive function at the intersection of gender and occupation across Harmonized Cognitive Assessment Protocols (HCAPs) in the United States, Chile, Mexico, India, and South Africa",
+              "year": 2025,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Alzheimer's & Dementia",
+              "type": "journal-article",
+              "authors": [
+                "Mani, Sneha Sarah",
+                "Kezios, Katrina L",
+                "Delaporte, Magdalena",
+                "Cho, Tsai-Chin",
+                "Rojas-Saunero, L Paloma",
+                "Weuve, Jennifer",
+                "Avila-Rieger, Justina",
+                "Kobayashi, Lindsay C"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618017",
+              "title": "Key research priorities in methodological approaches for measuring the exposome and studying its role in the development of dementia",
+              "year": 2025,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Alzheimer's & Dementia",
+              "type": "journal-article",
+              "authors": [
+                "Nichols, Emma",
+                "Keller, Kayleigh P",
+                "Chang, Howard",
+                "Chiang, Yao-Yi",
+                "Gross, Alden L",
+                "Hayes-Larson, Eleanor",
+                "Claus Henn, Birgit",
+                "Kezios, Katrina L",
+                "Meijer, Erik",
+                "Shih, Regina A",
+                "others"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618056",
+              "title": "Investigating associations between long-term poverty exposure and premature mortality: evidence from the National Longitudinal Survey of Youth 1979 prospective cohort",
+              "year": 2025,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "The Lancet Public Health",
+              "type": "journal-article",
+              "authors": [
+                "Colvin, Calvin L",
+                "Swift, Samuel L",
+                "Yu, Xuexin",
+                "Kezios, Katrina L",
+                "Al Hazzouri, Adina Zeki"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618006",
+              "title": "Cumulative supplemental nutrition assistance program participation and memory aging among US older adults, 1996--2018",
+              "year": 2025,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Preventive Medicine",
+              "type": "journal-article",
+              "authors": [
+                "Yu, Xuexin",
+                "Kezios, Katrina L",
+                "Lu, Peiyi",
+                "Swift, Samuel L",
+                "Al Hazzouri, Adina Zeki"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618019",
+              "title": "Association of genetic risk score for Alzheimer's disease with late-life body mass index in all of us: Evaluating reverse causation",
+              "year": 2025,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Alzheimer's & Dementia",
+              "type": "journal-article",
+              "authors": [
+                "Choi, Minhyuk",
+                "Zimmerman, Scott C",
+                "Buto, Peter T",
+                "Wang, Jingxuan",
+                "Brenowitz, Willa D",
+                "Hoffmann, Thomas J",
+                "Hazzouri, Adina Zeki Al",
+                "Kezios, Katrina",
+                "Glymour, M Maria"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
               "put_code": "159800047",
               "title": "A critique and examination of the polysocial risk score approach: predicting cognition in the Health and Retirement Study",
               "year": 2024,
@@ -58089,6 +58577,66 @@
               ],
               "url": "https://doi.org/10.1097/EDE.0000000000001761",
               "first_seen": ""
+            },
+            {
+              "put_code": "233618022",
+              "title": "Regression discontinuity design studies: a guide for health researchers",
+              "year": 2024,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "bmj",
+              "type": "journal-article",
+              "authors": [
+                "Calonico, Sebastian",
+                "Jawadekar, Neal",
+                "Kezios, Katrina",
+                "Al Hazzouri, Adina Zeki"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618023",
+              "title": "Associations of childhood, adolescence, and midlife cognitive function with DNA methylation age acceleration in midlife",
+              "year": 2024,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Aging (Albany NY)",
+              "type": "journal-article",
+              "authors": [
+                "Chen, Junyu",
+                "Moubadder, Leah",
+                "Clausing, Elizabeth S",
+                "Kezios, Katrina L",
+                "Conneely, Karen N",
+                "Hüls, Anke",
+                "Baccarelli, Andrea",
+                "Factor-Litvak, Pam",
+                "Cirrillo, Piera",
+                "Shelton, Rachel C",
+                "others"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618002",
+              "title": "An introduction to longitudinal synthetic cohorts for studying the life course drivers of health outcomes and inequalities in older age",
+              "year": 2024,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Current Epidemiology Reports",
+              "type": "journal-article",
+              "authors": [
+                "Kezios, Katrina L",
+                "Glymour, M Maria",
+                "Zeki Al Hazzouri, Adina"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
             },
             {
               "put_code": "141975614",
@@ -58133,40 +58681,198 @@
               "first_seen": ""
             },
             {
-              "put_code": "129577189",
-              "title": "Practical Guide to Honest Causal Forests for Identifying Heterogeneous Treatment Effects",
+              "put_code": "233617994",
+              "title": "The associations of SNAP use and memory function among us older adults: Findings from the health and retirement study",
               "year": 2023,
-              "month": 2,
-              "day": 23,
-              "doi": "10.1093/aje/kwad043",
-              "journal": "",
-              "type": "other",
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Alzheimer's & Dementia",
+              "type": "journal-article",
               "authors": [
-                "Neal Jawadekar",
-                "Adina Zeki Al Hazzouri",
-                "Kara Rudolph",
-                "Sebastian Calonico",
-                "Jeanette Stingone",
-                "Michelle Odden",
-                "Katrina Kezios"
+                "Lu, Peiyi",
+                "Kezios, Katrina L",
+                "Lee, Jongseong",
+                "Wimer, Christopher T",
+                "Hazzouri, Adina Zeki Al"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618018",
+              "title": "Sufficient component cause simulations: an underutilized epidemiologic teaching tool",
+              "year": 2023,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Frontiers in epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Kezios, Katrina L",
+                "Hayes-Larson, Eleanor"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618001",
+              "title": "Racial differences in employment and poverty histories and health in older age",
+              "year": 2023,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "American Journal of Preventive Medicine",
+              "type": "journal-article",
+              "authors": [
+                "Lu, PhD Peiyi",
+                "Kezios, PhD Katrina",
+                "Milazzo, MPH Floriana",
+                "Jawadekar, MPH Neal",
+                "Shelley, PhD Mack",
+                "Al Hazzouri, PhD Adina Zeki"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233617992",
+              "title": "Practical guide to honest causal forests for identifying heterogeneous treatment effects",
+              "year": 2023,
+              "month": 0,
+              "day": 0,
+              "doi": "10.1093/aje/kwad043",
+              "journal": "American Journal of Epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Jawadekar, Neal",
+                "Kezios, Katrina",
+                "Odden, Michelle C",
+                "Stingone, Jeanette A",
+                "Calonico, Sebastian",
+                "Rudolph, Kara",
+                "Zeki Al Hazzouri, Adina"
               ],
               "url": "https://doi.org/10.1093/aje/kwad043",
               "first_seen": ""
             },
             {
-              "put_code": "119304027",
-              "title": "Low Hourly Wages in Middle-Age are Associated with Faster Memory Decline in Older Age: Evidence from the Health and Retirement Study",
-              "year": 2022,
-              "month": 9,
-              "day": 19,
+              "put_code": "233618041",
+              "title": "Low hourly wages in middle-age are associated with faster memory decline in older age: Evidence from the health and retirement study",
+              "year": 2023,
+              "month": 0,
+              "day": 0,
               "doi": "10.1093/aje/kwac166",
-              "journal": "",
-              "type": "other",
+              "journal": "Alzheimer's & Dementia",
+              "type": "journal-article",
               "authors": [
-                "Katrina Kezios"
+                "Kezios, Katrina L",
+                "Zhang, Adina",
+                "Kim, Soohyun",
+                "Lu, Peiyi",
+                "Glymour, M Maria",
+                "Elfassy, Tali",
+                "Hazzouri, Adina Zeki Al"
               ],
               "url": "https://doi.org/10.1093/aje/kwac166",
               "first_seen": ""
+            },
+            {
+              "put_code": "233618033",
+              "title": "Late life learning, dementia, and overall health in underresourced settings: an investigation of the University for Seniors in Beirut, Lebanon",
+              "year": 2023,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Alzheimer's & Dementia",
+              "type": "journal-article",
+              "authors": [
+                "Elbejjani, Martine",
+                "Hazzouri, Adina Zeki Al",
+                "Kezios, Katrina L",
+                "Sibai, Abla"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233617989",
+              "title": "History of low hourly wage and all-cause mortality among middle-aged workers",
+              "year": 2023,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "JAMA",
+              "type": "journal-article",
+              "authors": [
+                "Kezios, Katrina L",
+                "Lu, Peiyi",
+                "Calonico, Sebastian",
+                "Al Hazzouri, Adina Zeki"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618069",
+              "title": "Depressive symptoms mediate the relationship between sustained food insecurity and cognition: a causal mediation analysis",
+              "year": 2023,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Annals of epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Lu, PhD Peiyi",
+                "Kezios, PhD Katrina",
+                "Yaffe, MD Kristine",
+                "Kim, PhD Soohyun",
+                "Zhang, MS Adina",
+                "Milazzo, BA Floriana H",
+                "Al Hazzouri, PhD Adina Zeki"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233617984",
+              "title": "Associations of food insecurity and memory function among middle to older--aged adults in the Health and Retirement Study",
+              "year": 2023,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "JAMA network open",
+              "type": "journal-article",
+              "authors": [
+                "Lu, Peiyi",
+                "Kezios, Katrina",
+                "Jawadekar, Neal",
+                "Swift, Samuel",
+                "Vable, Anusha",
+                "Zeki Al Hazzouri, Adina"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618015",
+              "title": "Association between supplemental nutrition assistance program use and memory decline: findings from the Health and Retirement Study",
+              "year": 2023,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Neurology",
+              "type": "journal-article",
+              "authors": [
+                "Lu, Peiyi",
+                "Kezios, Katrina",
+                "Lee, Jongseong",
+                "Calonico, Sebastian",
+                "Wimer, Christopher",
+                "Zeki Al Hazzouri, Adina"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
             },
             {
               "put_code": "103473966",
@@ -58188,6 +58894,79 @@
               ],
               "url": "https://doi.org/10.1016/j.reprotox.2021.11.004",
               "first_seen": ""
+            },
+            {
+              "put_code": "233618024",
+              "title": "Statins and cognitive decline in the cardiovascular health study: a comparison of different analytical approaches",
+              "year": 2022,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "The Journals of Gerontology: Series A",
+              "type": "journal-article",
+              "authors": [
+                "Zeki Al Hazzouri, Adina",
+                "Jawadekar, Neal",
+                "Grasset, Leslie",
+                "Kaiser, Paulina",
+                "Kezios, Katrina",
+                "Calonico, Sebastian",
+                "Glymour, Maria",
+                "Hirsch, Calvin",
+                "Arnold, Alice M",
+                "Varadhan, Ravi",
+                "others"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618029",
+              "title": "Racial residential segregation in young adulthood and brain integrity in middle age: can we learn from small samples?",
+              "year": 2022,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "American journal of epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Zeki Al Hazzouri, Adina",
+                "Jawadekar, Neal",
+                "Kezios, Katrina",
+                "Caunca, Michelle R",
+                "Elfassy, Tali",
+                "Calonico, Sebastian",
+                "Kershaw, Kiarri N",
+                "Yaffe, Kristine",
+                "Launer, Lenore",
+                "Elbejjani, Martine",
+                "others"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618005",
+              "title": "Comparing different operationalizations of allostatic load measured in mid-life and their patterning by race and cumulative life course socioeconomic status",
+              "year": 2022,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Psychoneuroendocrinology",
+              "type": "journal-article",
+              "authors": [
+                "Kezios, Katrina L",
+                "Suglia, Shakira F",
+                "Doyle, David Matthew",
+                "Susser, Ezra",
+                "Bradwin, Gary",
+                "Cirillo, Piera",
+                "Cohn, Barbara",
+                "Link, Bruce",
+                "Factor-Litvak, Pam"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
             },
             {
               "put_code": "99749838",
@@ -58212,24 +58991,64 @@
               "first_seen": ""
             },
             {
-              "put_code": "90930147",
-              "title": "Overcoming data gaps in life course epidemiology by matching across cohorts",
-              "year": 2020,
-              "month": 7,
-              "day": 22,
-              "doi": "10.1101/2020.07.21.20158857",
-              "journal": "",
-              "type": "preprint",
+              "put_code": "233618014",
+              "title": "Is the way forward to step back? Documenting the frequency with which study goals are misaligned with study methods and interpretations in the epidemiologic literature",
+              "year": 2021,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Epidemiologic Reviews",
+              "type": "journal-article",
               "authors": [
-                "Katrina L. Kezios",
-                "Scott Zimmerman",
-                "Kara Rudolph",
-                "Sebastian Calonico",
-                "Adina Zeki Al-Hazzouri",
-                "M. Maria Glymour"
+                "Kezios, Katrina L"
               ],
-              "url": "https://doi.org/10.1101/2020.07.21.20158857",
-              "first_seen": ""
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233617991",
+              "title": "Explaining the Black-white depression paradox: interrogating the Environmental Affordances Model",
+              "year": 2021,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Social Science & Medicine",
+              "type": "journal-article",
+              "authors": [
+                "Pamplin II, John R",
+                "Kezios, Katrina L",
+                "Hayes-Larson, Eleanor",
+                "Keyes, Katherine M",
+                "Susser, Ezra S",
+                "Factor-Litvak, Pam",
+                "Link, Bruce G",
+                "Bates, Lisa M"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618003",
+              "title": "Tracking of obesity in childhood into adulthood: effects on body mass index and fat mass index at age 50",
+              "year": 2020,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Childhood Obesity",
+              "type": "journal-article",
+              "authors": [
+                "Rundle, Andrew G",
+                "Factor-Litvak, Pam",
+                "Suglia, Shakira F",
+                "Susser, Ezra S",
+                "Kezios, Katrina L",
+                "Lovasi, Gina S",
+                "Cirillo, Piera M",
+                "Cohn, Barbara A",
+                "Link, Bruce G"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
             },
             {
               "put_code": "56506629",
@@ -58243,6 +59062,49 @@
               "authors": [],
               "url": "https://doi.org/10.1016/j.annepidem.2019.03.001",
               "first_seen": ""
+            },
+            {
+              "put_code": "233617988",
+              "title": "Who is in this study, anyway? Guidelines for a useful Table 1",
+              "year": 2019,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Journal of clinical epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Hayes-Larson, Eleanor",
+                "Kezios, Katrina L",
+                "Mooney, Stephen J",
+                "Lovasi, Gina"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
+            },
+            {
+              "put_code": "233618011",
+              "title": "Cognition level and change in cognition during adolescence are associated with cognition in midlife",
+              "year": 2019,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "Annals of Epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Agha, Golareh",
+                "Kezios, Katrina",
+                "Baccarelli, Andrea A",
+                "Bowman, F DuBois",
+                "Rauh, Virginia",
+                "Susser, Ezra S",
+                "Cohn, Barbara",
+                "Cirillo, Piera",
+                "Link, Bruce G",
+                "Factor-Litvak, Pam",
+                "others"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
             },
             {
               "put_code": "56506635",
@@ -58334,6 +59196,25 @@
               "authors": [],
               "url": "http://europepmc.org/articles/PMC3411417",
               "first_seen": ""
+            },
+            {
+              "put_code": "233618012",
+              "title": "Evaluating early life risk factors for late life health outcome using probabilistic matching of early and late life cohorts.",
+              "year": 0,
+              "month": 0,
+              "day": 0,
+              "doi": "",
+              "journal": "",
+              "type": "preprint",
+              "authors": [
+                "Al Hazzouri, Adina Zeki",
+                "Kezios, Katrina",
+                "Zimmerman, Scott",
+                "Calonico, Sebastian",
+                "Glymour, M Maria"
+              ],
+              "url": "",
+              "first_seen": "2026-11-16"
             }
           ]
         },
@@ -58910,6 +59791,29 @@
               "first_seen": ""
             },
             {
+              "put_code": "225958877",
+              "title": "A Prospective Study of Preconception and Early Pregnancy Cannabis Use and Birth Outcomes",
+              "year": 2026,
+              "month": 11,
+              "day": 0,
+              "doi": "10.1111/ppe.70201",
+              "journal": "Paediatric and Perinatal Epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Amelia K. Wesselink",
+                "Ruth J. Geller",
+                "Alyssa F. Harlow",
+                "Collette N. Ncube",
+                "Krystal E. Kuan",
+                "David A. Savitz",
+                "Kenneth J. Rothman",
+                "Michael L. Eisenberg",
+                "Lauren A. Wise"
+              ],
+              "url": "https://doi.org/10.1111/ppe.70201",
+              "first_seen": ""
+            },
+            {
               "put_code": "229467831",
               "title": "Racial discrimination and preterm birth subtype among a prospective cohort of nulliparous Black women in the United States, 2010-2013",
               "year": 2026,
@@ -58927,29 +59831,6 @@
                 "Christina Ludema"
               ],
               "url": "https://doi.org/10.1093/aje/kwag252",
-              "first_seen": ""
-            },
-            {
-              "put_code": "225958877",
-              "title": "A Prospective Study of Preconception and Early Pregnancy Cannabis Use and Birth Outcomes",
-              "year": 2026,
-              "month": 9,
-              "day": 6,
-              "doi": "10.1111/ppe.70201",
-              "journal": "Paediatric and Perinatal Epidemiology",
-              "type": "journal-article",
-              "authors": [
-                "Amelia K. Wesselink",
-                "Ruth J. Geller",
-                "Alyssa F. Harlow",
-                "Collette N. Ncube",
-                "Krystal E. Kuan",
-                "David A. Savitz",
-                "Kenneth J. Rothman",
-                "Michael L. Eisenberg",
-                "Lauren A. Wise"
-              ],
-              "url": "https://doi.org/10.1111/ppe.70201",
               "first_seen": ""
             },
             {
@@ -66542,6 +67423,29 @@
               "first_seen": ""
             },
             {
+              "put_code": "225960879",
+              "title": "A Prospective Study of Preconception and Early Pregnancy Cannabis Use and Birth Outcomes",
+              "year": 2026,
+              "month": 11,
+              "day": 0,
+              "doi": "10.1111/ppe.70201",
+              "journal": "Paediatric and Perinatal Epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Amelia K. Wesselink",
+                "Ruth J. Geller",
+                "Alyssa F. Harlow",
+                "Collette N. Ncube",
+                "Krystal E. Kuan",
+                "David A. Savitz",
+                "Kenneth J. Rothman",
+                "Michael L. Eisenberg",
+                "Lauren A. Wise"
+              ],
+              "url": "https://doi.org/10.1111/ppe.70201",
+              "first_seen": ""
+            },
+            {
               "put_code": "230637104",
               "title": "Sleep health and uterine leiomyomata incidence and growth: a prospective ultrasound study",
               "year": 2026,
@@ -66675,29 +67579,6 @@
                 "Michael L Eisenberg"
               ],
               "url": "https://doi.org/10.1093/ntr/ntaf141",
-              "first_seen": ""
-            },
-            {
-              "put_code": "225960879",
-              "title": "A Prospective Study of Preconception and Early Pregnancy Cannabis Use and Birth Outcomes",
-              "year": 2026,
-              "month": 9,
-              "day": 6,
-              "doi": "10.1111/ppe.70201",
-              "journal": "Paediatric and Perinatal Epidemiology",
-              "type": "journal-article",
-              "authors": [
-                "Amelia K. Wesselink",
-                "Ruth J. Geller",
-                "Alyssa F. Harlow",
-                "Collette N. Ncube",
-                "Krystal E. Kuan",
-                "David A. Savitz",
-                "Kenneth J. Rothman",
-                "Michael L. Eisenberg",
-                "Lauren A. Wise"
-              ],
-              "url": "https://doi.org/10.1111/ppe.70201",
               "first_seen": ""
             },
             {
@@ -70374,6 +71255,29 @@
               "first_seen": ""
             },
             {
+              "put_code": "225958176",
+              "title": "A Prospective Study of Preconception and Early Pregnancy Cannabis Use and Birth Outcomes",
+              "year": 2026,
+              "month": 11,
+              "day": 0,
+              "doi": "10.1111/ppe.70201",
+              "journal": "Paediatric and Perinatal Epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Amelia K. Wesselink",
+                "Ruth J. Geller",
+                "Alyssa F. Harlow",
+                "Collette N. Ncube",
+                "Krystal E. Kuan",
+                "David A. Savitz",
+                "Kenneth J. Rothman",
+                "Michael L. Eisenberg",
+                "Lauren A. Wise"
+              ],
+              "url": "https://doi.org/10.1111/ppe.70201",
+              "first_seen": ""
+            },
+            {
               "put_code": "230701109",
               "title": "Sleep health and uterine leiomyomata incidence and growth: a prospective ultrasound study",
               "year": 2026,
@@ -70439,29 +71343,6 @@
                 "Amelia K Wesselink"
               ],
               "url": "https://doi.org/10.1093/aje/kwag229",
-              "first_seen": ""
-            },
-            {
-              "put_code": "225958176",
-              "title": "A Prospective Study of Preconception and Early Pregnancy Cannabis Use and Birth Outcomes",
-              "year": 2026,
-              "month": 9,
-              "day": 6,
-              "doi": "10.1111/ppe.70201",
-              "journal": "Paediatric and Perinatal Epidemiology",
-              "type": "journal-article",
-              "authors": [
-                "Amelia K. Wesselink",
-                "Ruth J. Geller",
-                "Alyssa F. Harlow",
-                "Collette N. Ncube",
-                "Krystal E. Kuan",
-                "David A. Savitz",
-                "Kenneth J. Rothman",
-                "Michael L. Eisenberg",
-                "Lauren A. Wise"
-              ],
-              "url": "https://doi.org/10.1111/ppe.70201",
               "first_seen": ""
             },
             {
@@ -74570,8 +75451,28 @@
           "orcid": "0009-0000-5659-8564",
           "slug": "gwen-aubrac",
           "status": "ok",
-          "work_count": 2,
+          "work_count": 3,
           "works": [
+            {
+              "put_code": "233097569",
+              "title": "Cardiovascular Outcomes in Semaglutide Versus Tirzepatide Users With Obesity and Atherosclerotic Disease: A Target Trial Emulation",
+              "year": 2026,
+              "month": 11,
+              "day": 10,
+              "doi": "10.1111/dom.71550",
+              "journal": "Diabetes, Obesity and Metabolism",
+              "type": "journal-article",
+              "authors": [
+                "Gwen Aubrac",
+                "Rafeya V. Raquib",
+                "Minh T. Le",
+                "Michael Webster‐Clark",
+                "Robert W. Platt",
+                "Andrew C. Stokes"
+              ],
+              "url": "https://doi.org/10.1111/dom.71550",
+              "first_seen": "2026-11-16"
+            },
             {
               "put_code": "194122494",
               "title": "Comparing IPCW Models to Adjust for Informative Censoring During COVID‐19 Using Data From the Clinical Practice Research Datalink",
@@ -78809,8 +79710,25 @@
           "orcid": "0009-0005-9928-1096",
           "slug": "tianyu-liu",
           "status": "ok",
-          "work_count": 10,
+          "work_count": 11,
           "works": [
+            {
+              "put_code": "233211483",
+              "title": "Using social networks to predict cognitive resilience among adults aged ≥ 80 years: insights from the Framingham Heart Study",
+              "year": 2026,
+              "month": 11,
+              "day": 11,
+              "doi": "10.37349/emed.2026.1001436",
+              "journal": "Exploration of Medicine",
+              "type": "journal-article",
+              "authors": [
+                "Tianyu Liu",
+                "Huitong Ding",
+                "Phillip H. Hwang"
+              ],
+              "url": "https://doi.org/10.37349/emed.2026.1001436",
+              "first_seen": "2026-11-16"
+            },
             {
               "put_code": "230012986",
               "title": "Association of Life’s Essential 8 with Hepatic Fibrosis, MASLD, and MetALD in the Framingham Heart Study",
@@ -83776,7 +84694,7 @@
             },
             {
               "put_code": "230489201",
-              "title": "The Role of Medicaid Home and Community Based Services Supporting Autistic Women during Pregnancy between 2016 and 2022",
+              "title": "The role of Medicaid Home and Community Based Services supporting autistic women during pregnancy between 2016 and 2022",
               "year": 2026,
               "month": 5,
               "day": 6,
@@ -84261,6 +85179,29 @@
     }
   },
   "collaborations": [
+    {
+      "title": "Using social networks to predict cognitive resilience among adults aged ≥ 80 years: insights from the Framingham Heart Study",
+      "year": 2026,
+      "doi": "10.37349/emed.2026.1001436",
+      "groups": [
+        "Faculty",
+        "PhD Students"
+      ],
+      "people": [
+        {
+          "name": "Phillip Hwang",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Tianyu Liu",
+          "groups": [
+            "PhD Students"
+          ]
+        }
+      ]
+    },
     {
       "title": "Discrimination and risk of spontaneous abortion in a preconception cohort study",
       "year": 2026,
