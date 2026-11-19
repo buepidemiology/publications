@@ -4,13 +4,16 @@ Build the group publication pages from public ORCID records ONLY.
 The only service contacted is the ORCID public API (pub.orcid.org).
 No PubMed, Crossref, Scopus or any other source is queried.
 
-Roster:  ORCIDs.xlsx (top level of the repo, or in data/), one sheet per group ("Faculty", "PhD", "Post Docs").
+Roster:  ORCIDs.xlsx (top level of the repo, or in data/), one sheet per group:
+         "Faculty", "Adjunct Faculty", "PhD", "Post Docs", "Research Staff".
          Column A = Name ("Last, First"), column B = ORCID iD.
          People without an ORCID iD are skipped (listed in the Action log).
 
-Output:  docs/faculty.html, docs/phd.html, docs/postdocs.html  (the three pages)
-         docs/index.html          (redirects to the Faculty page)
-         docs/publications.json   (all data)
+Output:  docs/faculty.html, docs/adjunct.html, docs/phd.html, docs/postdocs.html,
+         docs/staff.html      (one page per group)
+         docs/collaborations.html  (papers co-authored across groups)
+         docs/index.html           (redirects to the Faculty page)
+         docs/publications.json    (all data)
 """
 
 import html
@@ -51,10 +54,11 @@ SITE_TITLE = "BU Epidemiology Group Publications"
 # Order here = order of the tabs on every page.
 # "sheets" lists accepted sheet names, ignoring capitals, spaces and punctuation.
 GROUPS = [
-    {"key": "faculty",  "sheets": ["faculty"],                "title": "Faculty",        "file": "faculty.html"},
-    {"key": "phd",      "sheets": ["phd", "phdstudents"],     "title": "PhD Students",   "file": "phd.html"},
-    {"key": "postdocs", "sheets": ["postdocs", "postdoc"],    "title": "Postdocs",       "file": "postdocs.html"},
-    {"key": "staff",    "sheets": ["researchstaff", "staff"], "title": "Research Staff", "file": "staff.html"},
+    {"key": "faculty",  "sheets": ["faculty"],                   "title": "Faculty",         "file": "faculty.html"},
+    {"key": "adjunct",  "sheets": ["adjunctfaculty", "adjunct"], "title": "Adjunct Faculty", "file": "adjunct.html"},
+    {"key": "phd",      "sheets": ["phd", "phdstudents"],        "title": "PhD Students",    "file": "phd.html"},
+    {"key": "postdocs", "sheets": ["postdocs", "postdoc"],       "title": "Postdocs",        "file": "postdocs.html"},
+    {"key": "staff",    "sheets": ["researchstaff", "staff"],    "title": "Research Staff",  "file": "staff.html"},
 ]
 
 ORCID_PATTERN = re.compile(r"(\d{4}-\d{4}-\d{4}-\d{3}[\dXx])")
@@ -103,14 +107,17 @@ def read_roster():
     workbook = load_workbook(ROSTER_PATH, read_only=True, data_only=True)
     sheets = {sheet_key(name): workbook[name] for name in workbook.sheetnames}
     roster = {}
+    used_sheets = set()
 
     for group in GROUPS:
-        sheet = next((sheets[name] for name in group["sheets"] if name in sheets), None)
-        if sheet is None:
+        sheet_name = next((name for name in group["sheets"] if name in sheets), None)
+        if sheet_name is None:
             raise RuntimeError(
                 f"No sheet for '{group['title']}' in {ROSTER_PATH.name}. "
                 f"Sheets found: {workbook.sheetnames}"
             )
+        used_sheets.add(sheet_name)
+        sheet = sheets[sheet_name]
 
         people, skipped, seen = [], [], set()
         for row in sheet.iter_rows(values_only=True):
@@ -134,6 +141,11 @@ def read_roster():
 
         people.sort(key=lambda person: person.pop("sort"))
         roster[group["key"]] = {"people": people, "skipped": skipped}
+
+    # Warn (in the Action log) about sheets that no group reads, so nobody is left off silently.
+    ignored = [name for name in workbook.sheetnames if sheet_key(name) not in used_sheets]
+    for name in ignored:
+        print(f"WARNING: sheet '{name}' is not used by any group; add it to GROUPS to include it.")
 
     return roster
 
@@ -324,6 +336,9 @@ def end_sentence(text):
     return text if text.endswith((".", "?", "!")) else text + "."
 
 
+MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
 def citation_html(pub):
     authors = pub["authors"]
     parts = []
@@ -345,9 +360,6 @@ def citation_html(pub):
         parts.append(venue + ".")
 
     return " ".join(parts)
-
-
-MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
 def is_new(pub):
@@ -500,6 +512,7 @@ STYLE = """
     .role { display: inline-block; border-radius: 4px; padding: 0 0.35rem; font-size: 0.78rem;
             font-weight: normal; color: var(--text); background: rgba(107, 114, 128, 0.18); }
     .role-faculty { background: rgba(15, 76, 129, 0.18); }
+    .role-adjunct { background: rgba(190, 24, 93, 0.18); }
     .role-phd { background: rgba(37, 130, 60, 0.20); }
     .role-postdocs { background: rgba(180, 83, 9, 0.20); }
     .role-staff { background: rgba(126, 34, 206, 0.18); }
@@ -727,7 +740,7 @@ def render_page(group_key, groups, generated_at):
     lines.extend(render_newest(researchers))
     lines.append('  <p class="meta">Missing publications? '
                  '<a href="#add-publications">Here’s how to add them from Google Scholar</a>.</p>')
-    lines.append(f'  <h2 style="border:0">Publications by person</h2>')
+    lines.append('  <h2 style="border:0">Publications by person</h2>')
     lines.append(f'  <ul class="jump">{jump}</ul>')
     for person in researchers:
         lines.extend(render_researcher(person))
@@ -845,7 +858,7 @@ def main():
         (OUTPUT_DIR / group["file"]).write_text(render_page(key, groups, generated_at), encoding="utf-8")
         print(f"Created docs/{group['file']}")
     (OUTPUT_DIR / COLLABORATIONS_FILE).write_text(render_highlights_page(groups, highlights, generated_at),
-                                              encoding="utf-8")
+                                                  encoding="utf-8")
     print(f"Created docs/{COLLABORATIONS_FILE}: {len(highlights)} co-authored papers")
     (OUTPUT_DIR / "index.html").write_text(render_redirect(GROUPS[0]["file"]), encoding="utf-8")
     # Tell GitHub Pages to serve these files as-is instead of running Jekyll on them.
