@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adjunct Faculty | BU Epidemiology Group Publications</title>
+  <style>
+    :root { --text: #1f2937; --muted: #4b5563; --rule: #d1d5db; --accent: #0f4c81;
+            --link: #0757c8; --bg: #ffffff; --chip: #edf7ed; --chip-text: #256029;
+            --highlight: #eef4fb; }
+    @media (prefers-color-scheme: dark) {
+      :root { --text: #e5e7eb; --muted: #9ca3af; --rule: #374151; --accent: #6ea8dc;
+              --link: #8ab4f8; --bg: #111827; --chip: #1f3b25; --chip-text: #a7d7ae;
+              --highlight: #17233a; }
+    }
+    body { font-family: Arial, Helvetica, sans-serif; color: var(--text); background: var(--bg);
+           line-height: 1.6; max-width: 1080px; margin: 2rem auto; padding: 0 1rem 4rem; }
+    a { color: var(--link); }
+    h1 { margin-bottom: 0.2rem; }
+    nav.tabs { display: flex; gap: 0.25rem; border-bottom: 2px solid var(--rule); margin: 1.2rem 0; flex-wrap: wrap; }
+    nav.tabs a { padding: 0.5rem 1rem; text-decoration: none; color: var(--muted); font-weight: bold;
+                 border-bottom: 3px solid transparent; margin-bottom: -2px; }
+    nav.tabs a.active { color: var(--accent); border-bottom-color: var(--accent); }
+    .meta, .orcid, .publication-meta, .none { color: var(--muted); font-size: 0.92rem; }
+    #search { width: 100%; max-width: 420px; padding: 0.5rem 0.7rem; font: inherit; color: var(--text);
+              background: var(--bg); border: 1px solid var(--rule); border-radius: 6px; }
+    .jump { columns: 3 14rem; padding-left: 1.2rem; font-size: 0.95rem; }
+    h2 { margin: 3rem 0 0.3rem; padding-top: 0.7rem; border-top: 2px solid var(--accent); }
+    h3 { margin: 1.25rem 0 0.35rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.25rem; font-size: 1.05rem; }
+    ol { padding-left: 1.5rem; }
+    li { margin-bottom: 1rem; }
+    .title { font-weight: bold; }
+    .publication-meta { margin-top: 0.2rem; }
+    .type { display: inline-block; border-radius: 999px; padding: 0.05rem 0.5rem;
+            background: var(--chip); color: var(--chip-text); }
+    .count { color: var(--muted); font-weight: normal; font-size: 1rem; }
+    .hidden { display: none; }
+    .filters { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.8rem 0 1rem; }
+    .filters button { font: inherit; font-size: 0.9rem; padding: 0.3rem 0.8rem; border-radius: 999px;
+                      border: 1px solid var(--rule); background: var(--bg); color: var(--text); cursor: pointer; }
+    .filters button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+    .role { display: inline-block; border-radius: 4px; padding: 0 0.35rem; font-size: 0.78rem;
+            font-weight: normal; color: var(--text); background: rgba(107, 114, 128, 0.18); }
+    .role-faculty { background: rgba(15, 76, 129, 0.18); }
+    .role-adjunct { background: rgba(190, 24, 93, 0.18); }
+    .role-phd { background: rgba(37, 130, 60, 0.20); }
+    .role-postdocs { background: rgba(180, 83, 9, 0.20); }
+    .role-staff { background: rgba(126, 34, 206, 0.18); }
+    .howto { margin-top: 4rem; padding: 0.25rem 1.25rem 0.75rem; border-radius: 10px;
+             background: var(--highlight); }
+    .howto h2 { border: 0; margin-top: 0.9rem; }
+    .howto li { margin-bottom: 0.5rem; }
+    #newest { margin: 1.5rem 0 1rem; padding: 0.5rem 1.25rem 0.25rem; border-radius: 10px;
+              background: var(--highlight); border-left: 5px solid var(--accent); }
+    #newest h2 { margin: 0.6rem 0 0.8rem; padding: 0; border: 0; }
+    .new { display: inline-block; border-radius: 999px; padding: 0.05rem 0.5rem; font-weight: bold;
+           background: var(--accent); color: var(--bg); }
+    .members { font-weight: bold; color: var(--text); }
+  </style>
+</head>
+<body>
+  <h1>BU Epidemiology Group Publications</h1>
+  <p class="meta">Public works listed on each person's ORCID record. Last updated: 2026-11-19 17:48 UTC.</p>
+  <nav class="tabs"><a href="faculty.html">Faculty</a><a href="adjunct.html" class="active">Adjunct Faculty</a><a href="phd.html">PhD Students</a><a href="postdocs.html">Postdocs</a><a href="staff.html">Research Staff</a><a href="collaborations.html">Collaborations</a></nav>
+  <p class="meta">1 adjunct faculty · 44 works</p>
+  <input id="search" type="search" placeholder="Search names, titles, journals…" aria-label="Search publications">
+  <section id="newest">
+    <h2>Newest publications</h2>
+    <ol>
+        <li>Clark CJ, Campbell E, Grady ST, Buonocore J, Aker A, Deziel NC, Casey JA, Willis M. <span class="title">School-based exposures to oil and gas development for public school children in the United States.</span> <em>Journal of exposure science &amp; environmental epidemiology</em> (Mar 2026).<div class="publication-meta"><span class="new">New</span> · <span class="members">Amira Aker</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1038/s41370-026-00864-9" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>J Clark C, C Bond J, A Vrkljan K, Rowse M, Polka E, J Campbell E, K Wesselink A, Aker A, D Willis M. <span class="title">Oil and Gas Development and Adverse Birth Outcomes: A Qualitative and Quantitative Bias Analysis of the Epidemiologic Literature.</span> <em>Current environmental health reports</em> (Mar 2026).<div class="publication-meta"><span class="new">New</span> · <span class="members">Amira Aker</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1007/s40572-026-00526-w" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Kogevinas M, Kioumourtzoglou MA, Aker A, Houdou A, Grady S, Menouni A, Oulhote Y, Ritz B, Wells EM, Al-Delaimy WK. <span class="title">Why Scientists Must Engage: Environmental Health in Times of Armed Conflict.</span> <em>International journal of public health</em> (Dec 2025).<div class="publication-meta"><span class="new">New</span> · <span class="members">Amira Aker</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.3389/ijph.2025.1609353" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira Aker, Annalee Yassi. <span class="title">Applying a multi-scalar framework for teaching about the catastrophic public health situation in Palestine and beyond.</span> <em>Discover Public Health</em> (Dec 2025).<div class="publication-meta"><span class="new">New</span> · <span class="members">Amira Aker</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1186/s12982-025-01067-7" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Miranda Doris, Amira Aker, Élyse Caron-Beaudoin, Coreen Daley, Meredith Franklin, M.G.M. Milani, Margaret J. McGregor, Jannie Leung, Laura Minet, Ulrike Meyer, et al. <span class="title">Eighteen years of daily PM2.5 predictions (2005–2022) for a region of western Canada: Machine learning and satellite inputs for applications in rural health.</span> <em>Atmospheric Environment</em> (Aug 2025).<div class="publication-meta"><span class="new">New</span> · <span class="members">Amira Aker</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.atmosenv.2025.121281" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Ayotte P, Lemire M, Dumas P, Achouba A, Yedjenou M, Barrette AB, Ouellet N, Little M, Aker A. <span class="title">Wild foods as drivers of blood ergothioneine and selenoneine concentrations among Inuit living in Nunavik: results from the cross-sectional Qanuilirpitaa? 2017 survey.</span> <em>The American journal of clinical nutrition</em> (Jul 2025).<div class="publication-meta"><span class="new">New</span> · <span class="members">Amira Aker</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.ajcnut.2025.05.009" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Ahlam Abuawad, Mark Griffiths, Graham H. Edwards, Adan Eftekhari, Mohammed Al-Ebweini, Husam Al-Najar, Abeer Butmeh, Rasha Abu Dayyeh, Mohamed El-Shewy, Amira Aker. <span class="title">The Ongoing Environmental Destruction and Degradation of Gaza: The Resulting Public Health Crisis.</span> <em>American Journal of Public Health</em> (Jul 2025).<div class="publication-meta"><span class="new">New</span> · <span class="members">Amira Aker</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.2105/ajph.2025.308140" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Doris M, Daley C, Aker A, McGregor M, Verner MA, Owens-Beek N, West Moberly First Nations Chief and Council, Caron-Beaudoin É, MacLean HL, Hatzopoulou M. <span class="title">Inequity of Exposure to Unconventional Natural Gas Development in Northeastern British Columbia, Canada─An Environmental Justice Analysis.</span> <em>Environmental science &amp; technology</em> (Feb 2025).<div class="publication-meta"><span class="new">New</span> · <span class="members">Amira Aker</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1021/acs.est.4c06086" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira M. Aker, Pierre Ayotte, Éric Gaudreau, Melanie Lemire. <span class="title">Current-use pesticide exposures in remote Inuit communities.</span> <em>International Journal of Circumpolar Health</em> (Dec 2024).<div class="publication-meta"><span class="new">New</span> · <span class="members">Amira Aker</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1080/22423982.2024.2421048" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira Aker, Yohann Courtemanche, Pierre Ayotte, Philippe Robert, Éric Gaudreau, Mélanie Lemire. <span class="title">Per and poly-fluoroalkyl substances and respiratory health in an Inuit community.</span> <em>Environmental Health</em> (Oct 2024).<div class="publication-meta"><span class="new">New</span> · <span class="members">Amira Aker</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1186/s12940-024-01126-7" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+    </ol>
+  </section>
+  <p class="meta">Missing publications? <a href="#add-publications">Here’s how to add them from Google Scholar</a>.</p>
+  <h2 style="border:0">Publications by person</h2>
+  <ul class="jump"><li><a href="#amira-aker">Amira Aker</a> <span class="count">(44)</span></li></ul>
+  <section class="researcher" id="amira-aker">
+    <h2>Amira Aker <span class="count">(44 works)</span></h2>
+    <p class="orcid">ORCID: <a href="https://orcid.org/0000-0002-0063-7955" target="_blank" rel="noopener noreferrer">0000-0002-0063-7955</a></p>
+    <div class="year"><h3>2026</h3>
+      <ol>
+        <li>Clark CJ, Campbell E, Grady ST, Buonocore J, Aker A, Deziel NC, Casey JA, Willis M. <span class="title">School-based exposures to oil and gas development for public school children in the United States.</span> <em>Journal of exposure science &amp; environmental epidemiology</em> (Mar 2026).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1038/s41370-026-00864-9" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>J Clark C, C Bond J, A Vrkljan K, Rowse M, Polka E, J Campbell E, K Wesselink A, Aker A, D Willis M. <span class="title">Oil and Gas Development and Adverse Birth Outcomes: A Qualitative and Quantitative Bias Analysis of the Epidemiologic Literature.</span> <em>Current environmental health reports</em> (Mar 2026).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1007/s40572-026-00526-w" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+      </ol></div>
+    <div class="year"><h3>2025</h3>
+      <ol>
+        <li>Kogevinas M, Kioumourtzoglou MA, Aker A, Houdou A, Grady S, Menouni A, Oulhote Y, Ritz B, Wells EM, Al-Delaimy WK. <span class="title">Why Scientists Must Engage: Environmental Health in Times of Armed Conflict.</span> <em>International journal of public health</em> (Dec 2025).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.3389/ijph.2025.1609353" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira Aker, Annalee Yassi. <span class="title">Applying a multi-scalar framework for teaching about the catastrophic public health situation in Palestine and beyond.</span> <em>Discover Public Health</em> (Dec 2025).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1186/s12982-025-01067-7" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Miranda Doris, Amira Aker, Élyse Caron-Beaudoin, Coreen Daley, Meredith Franklin, M.G.M. Milani, Margaret J. McGregor, Jannie Leung, Laura Minet, Ulrike Meyer, et al. <span class="title">Eighteen years of daily PM2.5 predictions (2005–2022) for a region of western Canada: Machine learning and satellite inputs for applications in rural health.</span> <em>Atmospheric Environment</em> (Aug 2025).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.atmosenv.2025.121281" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Ayotte P, Lemire M, Dumas P, Achouba A, Yedjenou M, Barrette AB, Ouellet N, Little M, Aker A. <span class="title">Wild foods as drivers of blood ergothioneine and selenoneine concentrations among Inuit living in Nunavik: results from the cross-sectional Qanuilirpitaa? 2017 survey.</span> <em>The American journal of clinical nutrition</em> (Jul 2025).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.ajcnut.2025.05.009" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Ahlam Abuawad, Mark Griffiths, Graham H. Edwards, Adan Eftekhari, Mohammed Al-Ebweini, Husam Al-Najar, Abeer Butmeh, Rasha Abu Dayyeh, Mohamed El-Shewy, Amira Aker. <span class="title">The Ongoing Environmental Destruction and Degradation of Gaza: The Resulting Public Health Crisis.</span> <em>American Journal of Public Health</em> (Jul 2025).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.2105/ajph.2025.308140" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Doris M, Daley C, Aker A, McGregor M, Verner MA, Owens-Beek N, West Moberly First Nations Chief and Council, Caron-Beaudoin É, MacLean HL, Hatzopoulou M. <span class="title">Inequity of Exposure to Unconventional Natural Gas Development in Northeastern British Columbia, Canada─An Environmental Justice Analysis.</span> <em>Environmental science &amp; technology</em> (Feb 2025).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1021/acs.est.4c06086" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+      </ol></div>
+    <div class="year"><h3>2024</h3>
+      <ol>
+        <li>Amira M. Aker, Pierre Ayotte, Éric Gaudreau, Melanie Lemire. <span class="title">Current-use pesticide exposures in remote Inuit communities.</span> <em>International Journal of Circumpolar Health</em> (Dec 2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1080/22423982.2024.2421048" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira Aker, Yohann Courtemanche, Pierre Ayotte, Philippe Robert, Éric Gaudreau, Mélanie Lemire. <span class="title">Per and poly-fluoroalkyl substances and respiratory health in an Inuit community.</span> <em>Environmental Health</em> (Oct 2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1186/s12940-024-01126-7" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Élyse Caron-Beaudoin, Amira Aker, Margaret J. McGregor. <span class="title">What Should the Public Health Policy Response Be to Harmful Exposure to Oil and Gas Development?</span> <em>American Journal of Public Health</em> (Oct 2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.2105/ajph.2024.307797" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Adlard B, Bonefeld-Jørgensen EC, Dudarev AA, Olafsdottir K, Abass K, Averina M, Ayotte P, Berner J, Byrne S, Caron-Beaudoin É, et al. <span class="title">Levels and trends of persistent organic pollutants in human populations living in the Arctic.</span> <em>International journal of circumpolar health</em> (Sep 2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1080/22423982.2024.2392405" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Aker A, Courtemanche Y, Ayotte P, Robert P, Gaudreau É, Lemire M. <span class="title">Per and poly-fluoroalkyl substances and respiratory health in an Inuit community.</span> (Aug 2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Preprint</span> · <a href="https://doi.org/10.21203/rs.3.rs-4790854/v1" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Nero E, Caron-Beaudoin É, Aker A, Gaudreau É, Ayotte P, Blanchette C, Lemire M. <span class="title">Exposure to organophosphate esters among Inuit adults of Nunavik, Canada.</span> <em>The Science of the total environment</em> (May 2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.scitotenv.2024.173563" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira Aker, Vy Nguyen, Pierre Ayotte, Sylvie Ricard, Mélanie Lemire. <span class="title">Characterizing Important Dietary Exposure Sources of Perfluoroalkyl Acids in Inuit Youth and Adults in Nunavik Using a Feature Selection Tool.</span> <em>Environmental Health Perspectives</em> (Apr 2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1289/ehp13556" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Aker AM, Friesen M, Ronald LA, Doyle-Waters MM, Takaro TK, Thickson W, Levin K, Meyer U, Caron-Beaudoin E, McGregor MJ. <span class="title">The human health effects of unconventional oil and gas development (UOGD): A scoping review of epidemiologic studies.</span> <em>Canadian journal of public health = Revue canadienne de sante publique</em> (Mar 2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.17269/s41997-024-00860-2" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira Aker, Pierre Ayotte, Chris Furgal, Tiff-Annie Kenny, Matthew Little, Marie-Josée Gauthier, Amélie Bouchard, Mélanie Lemire. <span class="title">Sociodemographic patterning of dietary profiles among Inuit youth and adults in Nunavik, Canada: a cross-sectional study.</span> <em>Canadian Journal of Public Health</em> (Jan 2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.17269/s41997-022-00724-7" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Matthew Little, Meghan Brockington, Amira Aker, Tiff-Annie Kenny, Federico Andrade-Rivas, Pierre Ayotte, Mélanie Lemire. <span class="title">Wild fish consumption and latitude as drivers of vitamin D status among Inuit living in Nunavik, northern Québec.</span> <em>Public Health Nutrition</em> (2024).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1017/s1368980024000491" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+      </ol></div>
+    <div class="year"><h3>2023</h3>
+      <ol>
+        <li>Brown HK, Pablo L, Scime NV, Aker AM, Dennis CL. <span class="title">Maternal disability and initiation and duration of breastfeeding: analysis of a Canadian cross-sectional survey.</span> <em>International breastfeeding journal</em> (Dec 2023).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1186/s13006-023-00608-7" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira Aker, Pierre Ayotte, Élyse Caron-Beaudoin, Sylvie Ricard, Éric Gaudreau, Mélanie Lemire. <span class="title">Cardiometabolic health and per and polyfluoroalkyl substances in an Inuit population.</span> <em>Environment International</em> (Nov 2023).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.envint.2023.108283" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Buse CG, Aker A, McLaren L, HubkaRao T, Sweeney E, van der Jagt RHC, Members of the National Working Group on Environments, Health Research. <span class="title">Canada needs a funding institute focused on environments, health, and societal well-being research.</span> <em>Canadian journal of public health = Revue canadienne de sante publique</em> (Jul 2023).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.17269/s41997-023-00802-4" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Jenna Quelch, Randy Jackson, Elaine Toombs, Margaret Robinson, Lena Serghides, Amira Aker, Holly Gauvin, Candida Sinoway, Linda Barkman, Christopher Mushquash, et al. <span class="title">Evaluating Facilitators’ Experience Delivering a Stress-Reducing Intervention for Indigenous Women with and without HIV.</span> <em>Health &amp; Social Care in the Community</em> (Jun 2023).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1155/2023/9219287" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Aker A, Serghides L, Cotnam J, Jackson R, Robinson M, Gauvin H, Mushquash C, Gesink D, Amirault M, Benoit AC. <span class="title">The impact of a stress management intervention including cultural components on stress biomarker levels and mental health indicators among indigenous women.</span> <em>Journal of behavioral medicine</em> (Jan 2023).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1007/s10865-023-00391-0" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira Aker, Pierre Ayotte, Elyse Caron-Beaudoin, Amila De Silva, Sylvie Ricard, Éric Gaudreau, Melanie Lemire. <span class="title">Plasma concentrations of perfluoroalkyl acids and their determinants in youth and adults from Nunavik, Canada.</span> <em>Chemosphere</em> (Jan 2023).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.chemosphere.2022.136797" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Claudelle Dubeau, Amira Aker, Élyse Caron-Beaudoin, Pierre Ayotte, Caty Blanchette, Nancy Gros-Louis McHugh, Mélanie Lemire. <span class="title">Perfluoroalkyl acid and bisphenol-A exposure via food sources in four First Nation communities in Quebec, Canada.</span> <em>Public Health Nutrition</em> (Jan 2023).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1017/s1368980022000581" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+      </ol></div>
+    <div class="year"><h3>2022</h3>
+      <ol>
+        <li>Aker A, Ayotte P, Caron-Beaudoin É, De Silva A, Ricard S, Lemire M. <span class="title">Associations between dietary profiles and perfluoroalkyl acids in Inuit youth and adults.</span> <em>The Science of the total environment</em> (Oct 2022).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.scitotenv.2022.159557" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Aker AM, Vigod SN, Dennis CL, Kaster T, Brown HK. <span class="title">The association between asthma and perinatal mental illness: a population-based cohort study.</span> <em>International journal of epidemiology</em> (Jun 2022).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1093/ije/dyab160" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira Aker, Élyse Caron-Beaudoin, Pierre Ayotte, Sylvie Ricard, Véronique Gilbert, Ellen Avard, Mélanie Lemire. <span class="title">Non-persistent exposures from plasticizers or plastic constituents in remote Arctic communities: a case for further research.</span> <em>Journal of Exposure Science &amp; Environmental Epidemiology</em> (May 2022).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1038/s41370-022-00425-w" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira M. Aker, Simone N. Vigod, Cindy-Lee Dennis, Hilary K. Brown. <span class="title">Perinatal Complications as a Mediator of the Association Between Chronic Disease and Postpartum Mental Illness.</span> <em>Journal of Women&#x27;s Health</em> (Apr 2022).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1089/jwh.2021.0014" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Aker AM, Whitworth KW, Bosson-Rieutort D, Wendling G, Ibrahim A, Verner MA, Benoit AC, Caron-Beaudoin É. <span class="title">Proximity and density of unconventional natural gas wells and mental illness and substance use among pregnant individuals: An exploratory study in Canada.</span> <em>International journal of hygiene and environmental health</em> (Mar 2022).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.ijheh.2022.113962" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Brown HK, McKnight A, Aker A. <span class="title">Association between pre-pregnancy multimorbidity and adverse maternal outcomes: A systematic review.</span> <em>Journal of multimorbidity and comorbidity</em> (Jan 2022).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1177/26335565221096584" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Amira Aker, Pierre Ayotte, Élyse Caron-Beaudoin, Amila De Silva, Sylvie Ricard, Mélanie Lemire. <span class="title">Associations between Dietary Profiles and Perfluoroalkyl Acids in Inuit Youth and Adults.</span> (2022).<div class="publication-meta"><span class="new">New</span> · <span class="type">Preprint</span> · <a href="https://doi.org/10.2139/ssrn.4168679" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+      </ol></div>
+    <div class="year"><h3>2021</h3>
+      <ol>
+        <li>Caron-Beaudoin É, Ayotte P, Aker A, Blanchette C, Ricard S, Gilbert V, Avard E, Lemire M. <span class="title">Exposure to benzene, toluene and polycyclic aromatic hydrocarbons in Nunavimmiut aged 16 years and over (Nunavik, Canada) - Qanuilirpitaa 2017 survey.</span> <em>Environmental research</em> (Dec 2021).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.envres.2021.112586" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Al-Hindi A, Aker A, Al-Delaimy WK. <span class="title">The destruction of Gaza&#x27;s infrastructure is exacerbating environmental health impacts.</span> <em>Environmental epidemiology (Philadelphia, Pa.)</em> (Dec 2021).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1097/ee9.0000000000000186" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Hilary K. Brown, Amira Aker, Susitha Wanigaratne. <span class="title">Multimorbidity and use of reversible contraception: Results from a Canadian cross-sectional survey.</span> <em>Contraception</em> (Dec 2021).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.contraception.2021.07.109" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Aker AM, Stephenson AL, Wilton AS, Vigod SN, Dennis CL, Guttmann A, Brown HK. <span class="title">Asthma Severity and Control and Their Association With Perinatal Mental Illness.</span> <em>Canadian journal of psychiatry. Revue canadienne de psychiatrie</em> (Aug 2021).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1177/07067437211039790" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Ashrap P, Aker A, Watkins DJ, Mukherjee B, Rosario-Pabón Z, Vélez-Vega CM, Alshawabkeh A, Cordero JF, Meeker JD. <span class="title">Psychosocial status modifies the effect of maternal blood metal and metalloid concentrations on birth outcomes.</span> <em>Environment international</em> (Feb 2021).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.envint.2021.106418" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+      </ol></div>
+    <div class="year"><h3>2019</h3>
+      <ol>
+        <li>Aker A, McConnell RER, Loch-Caruso R, Park SK, Mukherjee B, Rosario ZY, Vélez-Vega CM, Huerta-Montanez G, Alshawabkeh AN, Cordero JF, et al. <span class="title">Interactions between chemicals and non-chemical stressors: The modifying effect of life events on the association between triclocarban, phenols and parabens with gestational length in a Puerto Rican cohort.</span> <em>The Science of the total environment</em> (Oct 2019).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.scitotenv.2019.134719" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Boss J, Mukherjee B, Ferguson KK, Aker A, Alshawabkeh AN, Cordero JF, Meeker JD, Kim S. <span class="title">Estimating Outcome-Exposure Associations when Exposure Biomarker Detection Limits vary Across Batches.</span> <em>Epidemiology (Cambridge, Mass.)</em> (Sep 2019).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1097/ede.0000000000001052" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Aker AM, Ferguson KK, Rosario ZY, Mukherjee B, Alshawabkeh AN, Calafat AM, Cordero JF, Meeker JD. <span class="title">A repeated measures study of phenol, paraben and Triclocarban urinary biomarkers and circulating maternal hormones during gestation in the Puerto Rico PROTECT cohort.</span> <em>Environmental health : a global access science source</em> (Apr 2019).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1186/s12940-019-0459-5" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+      </ol></div>
+    <div class="year"><h3>2018</h3>
+      <ol>
+        <li>Aker AM, Ferguson KK, Rosario ZY, Mukherjee B, Alshawabkeh AN, Cordero JF, Meeker JD. <span class="title">The associations between prenatal exposure to triclocarban, phenols and parabens with gestational age and birth weight in northern Puerto Rico.</span> <em>Environmental research</em> (Oct 2018).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.envres.2018.10.030" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+        <li>Aker AM, Johns L, McElrath TF, Cantonwine DE, Mukherjee B, Meeker JD. <span class="title">Associations between maternal phenol and paraben urinary biomarkers and maternal hormones during pregnancy: A repeated measures study.</span> <em>Environment international</em> (Feb 2018).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.envint.2018.01.006" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+      </ol></div>
+    <div class="year"><h3>2016</h3>
+      <ol>
+        <li>Aker AM, Watkins DJ, Johns LE, Ferguson KK, Soldin OP, Anzalota Del Toro LV, Alshawabkeh AN, Cordero JF, Meeker JD. <span class="title">Phenols and parabens in relation to reproductive and thyroid hormones in pregnant women.</span> <em>Environmental research</em> (Jul 2016).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1016/j.envres.2016.07.002" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+      </ol></div>
+    <div class="year"><h3>2013</h3>
+      <ol>
+        <li>Peterson E, Aker A, Kim J, Li Y, Brand K, Copes R. <span class="title">Lung cancer risk from radon in Ontario, Canada: how many lung cancers can we prevent?</span> <em>Cancer causes &amp; control : CCC</em> (Aug 2013).<div class="publication-meta"><span class="new">New</span> · <span class="type">Journal article</span> · <a href="https://doi.org/10.1007/s10552-013-0278-x" target="_blank" rel="noopener noreferrer">DOI</a></div></li>
+      </ol></div>
+  </section>
+  <section id="add-publications" class="howto">
+    <h2>Missing publications? Import them from Google Scholar</h2>
+    <p>This page only shows works on your ORCID record. You can copy your whole Google Scholar
+    list into ORCID in a few minutes. Import <strong>everything</strong>: ORCID groups works it
+    already has, and this site shows each publication only once, so you don’t need to compare
+    the two lists first.</p>
+    <ol>
+      <li>Open your <a href="https://scholar.google.com/citations" target="_blank" rel="noopener noreferrer">Google Scholar profile</a>.
+      Scroll down and click <strong>Show more</strong> until every publication is listed.</li>
+      <li>Tick the checkbox at the top of the list to select all, then choose
+      <strong>Export → BibTeX</strong>. A page full of text opens in your browser.</li>
+      <li>Save that page as a file: press <strong>Ctrl + S</strong> (Windows) or
+      <strong>Cmd + S</strong> (Mac) and save it as a .txt or .bib file.</li>
+      <li>Sign in to <a href="https://orcid.org/signin" target="_blank" rel="noopener noreferrer">ORCID</a>.
+      In the <strong>Works</strong> section, choose <strong>Add → Import BibTeX</strong>
+      and select the file you saved.</li>
+      <li>Look over the list. Google Scholar sometimes includes papers by someone else with
+      a similar name, so remove any that aren’t yours. Then save the rest.</li>
+      <li>Make sure the works’ visibility is set to <strong>Everyone</strong>.
+      Private works can’t be seen by this site.</li>
+    </ol>
+    <p>New works appear here after the next Monday update.</p>
+  </section>
+
+  <script>
+    (function () {
+      var box = document.getElementById('search');
+      box.addEventListener('input', function () {
+        var q = box.value.trim().toLowerCase();
+        var newest = document.getElementById('newest');
+        if (newest) { newest.classList.toggle('hidden', !!q); }
+        document.querySelectorAll('section.researcher').forEach(function (section) {
+          var nameHit = section.querySelector('h2').textContent.toLowerCase().indexOf(q) !== -1;
+          var anyVisible = false;
+          section.querySelectorAll('.year').forEach(function (year) {
+            var yearVisible = false;
+            year.querySelectorAll('li').forEach(function (li) {
+              var show = !q || nameHit || li.textContent.toLowerCase().indexOf(q) !== -1;
+              li.classList.toggle('hidden', !show);
+              if (show) { yearVisible = true; }
+            });
+            year.classList.toggle('hidden', !yearVisible);
+            if (yearVisible) { anyVisible = true; }
+          });
+          section.classList.toggle('hidden', !!q && !nameHit && !anyVisible);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

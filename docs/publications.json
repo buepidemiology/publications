@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19 17:45 UTC",
+  "generated_at": "2026-11-19 17:48 UTC",
   "source": "ORCID public API v3.0 (no other sources)",
   "failures": [],
   "groups": {
@@ -81292,6 +81292,975 @@
         }
       ]
     },
+    "adjunct": {
+      "title": "Adjunct Faculty",
+      "file": "adjunct.html",
+      "skipped": [],
+      "researchers": [
+        {
+          "name": "Amira Aker",
+          "orcid": "0000-0002-0063-7955",
+          "slug": "amira-aker",
+          "status": "ok",
+          "work_count": 44,
+          "works": [
+            {
+              "put_code": "211200250",
+              "title": "School-based exposures to oil and gas development for public school children in the United States.",
+              "year": 2026,
+              "month": 3,
+              "day": 28,
+              "doi": "10.1038/s41370-026-00864-9",
+              "journal": "Journal of exposure science & environmental epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Clark CJ",
+                "Campbell E",
+                "Grady ST",
+                "Buonocore J",
+                "Aker A",
+                "Deziel NC",
+                "Casey JA",
+                "Willis M"
+              ],
+              "url": "https://doi.org/10.1038/s41370-026-00864-9",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "208910974",
+              "title": "Oil and Gas Development and Adverse Birth Outcomes: A Qualitative and Quantitative Bias Analysis of the Epidemiologic Literature.",
+              "year": 2026,
+              "month": 3,
+              "day": 10,
+              "doi": "10.1007/s40572-026-00526-w",
+              "journal": "Current environmental health reports",
+              "type": "journal-article",
+              "authors": [
+                "J Clark C",
+                "C Bond J",
+                "A Vrkljan K",
+                "Rowse M",
+                "Polka E",
+                "J Campbell E",
+                "K Wesselink A",
+                "Aker A",
+                "D Willis M"
+              ],
+              "url": "https://doi.org/10.1007/s40572-026-00526-w",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "204029394",
+              "title": "Why Scientists Must Engage: Environmental Health in Times of Armed Conflict.",
+              "year": 2025,
+              "month": 12,
+              "day": 17,
+              "doi": "10.3389/ijph.2025.1609353",
+              "journal": "International journal of public health",
+              "type": "journal-article",
+              "authors": [
+                "Kogevinas M",
+                "Kioumourtzoglou MA",
+                "Aker A",
+                "Houdou A",
+                "Grady S",
+                "Menouni A",
+                "Oulhote Y",
+                "Ritz B",
+                "Wells EM",
+                "Al-Delaimy WK"
+              ],
+              "url": "https://europepmc.org/articles/PMC12753495",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "199170258",
+              "title": "Applying a multi-scalar framework for teaching about the catastrophic public health situation in Palestine and beyond",
+              "year": 2025,
+              "month": 12,
+              "day": 2,
+              "doi": "10.1186/s12982-025-01067-7",
+              "journal": "Discover Public Health",
+              "type": "journal-article",
+              "authors": [
+                "Amira Aker",
+                "Annalee Yassi"
+              ],
+              "url": "http://dx.doi.org/10.1186/s12982-025-01067-7",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "183709585",
+              "title": "Eighteen years of daily PM2.5 predictions (2005–2022) for a region of western Canada: Machine learning and satellite inputs for applications in rural health",
+              "year": 2025,
+              "month": 8,
+              "day": 0,
+              "doi": "10.1016/j.atmosenv.2025.121281",
+              "journal": "Atmospheric Environment",
+              "type": "journal-article",
+              "authors": [
+                "Miranda Doris",
+                "Amira Aker",
+                "Élyse Caron-Beaudoin",
+                "Coreen Daley",
+                "Meredith Franklin",
+                "M.G.M. Milani",
+                "Margaret J. McGregor",
+                "Jannie Leung",
+                "Laura Minet",
+                "Ulrike Meyer",
+                "Lisa A. Ronald",
+                "Tim K. Takaro",
+                "Willow Thickson",
+                "Heather L. MacLean",
+                "Marianne Hatzopoulou"
+              ],
+              "url": "https://doi.org/10.1016/j.atmosenv.2025.121281",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "204029438",
+              "title": "Wild foods as drivers of blood ergothioneine and selenoneine concentrations among Inuit living in Nunavik: results from the cross-sectional Qanuilirpitaa? 2017 survey.",
+              "year": 2025,
+              "month": 7,
+              "day": 4,
+              "doi": "10.1016/j.ajcnut.2025.05.009",
+              "journal": "The American journal of clinical nutrition",
+              "type": "journal-article",
+              "authors": [
+                "Ayotte P",
+                "Lemire M",
+                "Dumas P",
+                "Achouba A",
+                "Yedjenou M",
+                "Barrette AB",
+                "Ouellet N",
+                "Little M",
+                "Aker A"
+              ],
+              "url": "https://europepmc.org/articles/PMC12405779",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "185808478",
+              "title": "The Ongoing Environmental Destruction and Degradation of Gaza: The Resulting Public Health Crisis",
+              "year": 2025,
+              "month": 7,
+              "day": 0,
+              "doi": "10.2105/ajph.2025.308140",
+              "journal": "American Journal of Public Health",
+              "type": "journal-article",
+              "authors": [
+                "Ahlam Abuawad",
+                "Mark Griffiths",
+                "Graham H. Edwards",
+                "Adan Eftekhari",
+                "Mohammed Al-Ebweini",
+                "Husam Al-Najar",
+                "Abeer Butmeh",
+                "Rasha Abu Dayyeh",
+                "Mohamed El-Shewy",
+                "Amira Aker"
+              ],
+              "url": "https://doi.org/10.2105/AJPH.2025.308140",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "178695809",
+              "title": "Inequity of Exposure to Unconventional Natural Gas Development in Northeastern British Columbia, Canada─An Environmental Justice Analysis.",
+              "year": 2025,
+              "month": 2,
+              "day": 5,
+              "doi": "10.1021/acs.est.4c06086",
+              "journal": "Environmental science & technology",
+              "type": "journal-article",
+              "authors": [
+                "Doris M",
+                "Daley C",
+                "Aker A",
+                "McGregor M",
+                "Verner MA",
+                "Owens-Beek N",
+                "West Moberly First Nations Chief and Council",
+                "Caron-Beaudoin É",
+                "MacLean HL",
+                "Hatzopoulou M"
+              ],
+              "url": "https://doi.org/10.1021/acs.est.4c06086",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "170375500",
+              "title": "Current-use pesticide exposures in remote Inuit communities",
+              "year": 2024,
+              "month": 12,
+              "day": 31,
+              "doi": "10.1080/22423982.2024.2421048",
+              "journal": "International Journal of Circumpolar Health",
+              "type": "journal-article",
+              "authors": [
+                "Amira M. Aker",
+                "Pierre Ayotte",
+                "Éric Gaudreau",
+                "Melanie Lemire"
+              ],
+              "url": "https://doi.org/10.1080/22423982.2024.2421048",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "170622533",
+              "title": "Per and poly-fluoroalkyl substances and respiratory health in an Inuit community",
+              "year": 2024,
+              "month": 10,
+              "day": 12,
+              "doi": "10.1186/s12940-024-01126-7",
+              "journal": "Environmental Health",
+              "type": "journal-article",
+              "authors": [
+                "Amira Aker",
+                "Yohann Courtemanche",
+                "Pierre Ayotte",
+                "Philippe Robert",
+                "Éric Gaudreau",
+                "Mélanie Lemire"
+              ],
+              "url": "http://dx.doi.org/10.1186/s12940-024-01126-7",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "165183283",
+              "title": "What Should the Public Health Policy Response Be to Harmful Exposure to Oil and Gas Development?",
+              "year": 2024,
+              "month": 10,
+              "day": 0,
+              "doi": "10.2105/ajph.2024.307797",
+              "journal": "American Journal of Public Health",
+              "type": "journal-article",
+              "authors": [
+                "Élyse Caron-Beaudoin",
+                "Amira Aker",
+                "Margaret J. McGregor"
+              ],
+              "url": "https://doi.org/10.2105/AJPH.2024.307797",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "170622576",
+              "title": "Levels and trends of persistent organic pollutants in human populations living in the Arctic.",
+              "year": 2024,
+              "month": 9,
+              "day": 17,
+              "doi": "10.1080/22423982.2024.2392405",
+              "journal": "International journal of circumpolar health",
+              "type": "journal-article",
+              "authors": [
+                "Adlard B",
+                "Bonefeld-Jørgensen EC",
+                "Dudarev AA",
+                "Olafsdottir K",
+                "Abass K",
+                "Averina M",
+                "Ayotte P",
+                "Berner J",
+                "Byrne S",
+                "Caron-Beaudoin É",
+                "Drysdale M",
+                "Dumas P",
+                "Garcia-Barrios J",
+                "Gyllenhammar I",
+                "Laird B",
+                "Lemire M",
+                "Aker A",
+                "Lignell S",
+                "Long M",
+                "Norström K",
+                "Packull-McCormick S",
+                "Petersen MS",
+                "Ratelle M",
+                "Rautio A",
+                "Timmerman A",
+                "Toft G",
+                "Weihe P",
+                "Nøst TH",
+                "Wennberg M"
+              ],
+              "url": "https://europepmc.org/articles/PMC11409411",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "170622896",
+              "title": "Per and poly-fluoroalkyl substances and respiratory health in an Inuit community",
+              "year": 2024,
+              "month": 8,
+              "day": 0,
+              "doi": "10.21203/rs.3.rs-4790854/v1",
+              "journal": "",
+              "type": "preprint",
+              "authors": [
+                "Aker A",
+                "Courtemanche Y",
+                "Ayotte P",
+                "Robert P",
+                "Gaudreau É",
+                "Lemire M"
+              ],
+              "url": "http://europepmc.org/abstract/PPR/PPR900975",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "170622897",
+              "title": "Exposure to organophosphate esters among Inuit adults of Nunavik, Canada.",
+              "year": 2024,
+              "month": 5,
+              "day": 0,
+              "doi": "10.1016/j.scitotenv.2024.173563",
+              "journal": "The Science of the total environment",
+              "type": "journal-article",
+              "authors": [
+                "Nero E",
+                "Caron-Beaudoin É",
+                "Aker A",
+                "Gaudreau É",
+                "Ayotte P",
+                "Blanchette C",
+                "Lemire M"
+              ],
+              "url": "http://europepmc.org/abstract/med/38810742",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "158667914",
+              "title": "Characterizing Important Dietary Exposure Sources of Perfluoroalkyl Acids in Inuit Youth and Adults in Nunavik Using a Feature Selection Tool",
+              "year": 2024,
+              "month": 4,
+              "day": 0,
+              "doi": "10.1289/ehp13556",
+              "journal": "Environmental Health Perspectives",
+              "type": "journal-article",
+              "authors": [
+                "Amira Aker",
+                "Vy Nguyen",
+                "Pierre Ayotte",
+                "Sylvie Ricard",
+                "Mélanie Lemire"
+              ],
+              "url": "https://doi.org/10.1289/EHP13556",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "170622898",
+              "title": "The human health effects of unconventional oil and gas development (UOGD): A scoping review of epidemiologic studies.",
+              "year": 2024,
+              "month": 3,
+              "day": 0,
+              "doi": "10.17269/s41997-024-00860-2",
+              "journal": "Canadian journal of public health = Revue canadienne de sante publique",
+              "type": "journal-article",
+              "authors": [
+                "Aker AM",
+                "Friesen M",
+                "Ronald LA",
+                "Doyle-Waters MM",
+                "Takaro TK",
+                "Thickson W",
+                "Levin K",
+                "Meyer U",
+                "Caron-Beaudoin E",
+                "McGregor MJ"
+              ],
+              "url": "http://europepmc.org/abstract/med/38457120",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "124375626",
+              "title": "Sociodemographic patterning of dietary profiles among Inuit youth and adults in Nunavik, Canada: a cross-sectional study",
+              "year": 2024,
+              "month": 1,
+              "day": 0,
+              "doi": "10.17269/s41997-022-00724-7",
+              "journal": "Canadian Journal of Public Health",
+              "type": "journal-article",
+              "authors": [
+                "Amira Aker",
+                "Pierre Ayotte",
+                "Chris Furgal",
+                "Tiff-Annie Kenny",
+                "Matthew Little",
+                "Marie-Josée Gauthier",
+                "Amélie Bouchard",
+                "Mélanie Lemire"
+              ],
+              "url": "https://doi.org/10.17269/s41997-022-00724-7",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "153757831",
+              "title": "Wild fish consumption and latitude as drivers of vitamin D status among Inuit living in Nunavik, northern Québec",
+              "year": 2024,
+              "month": 0,
+              "day": 0,
+              "doi": "10.1017/s1368980024000491",
+              "journal": "Public Health Nutrition",
+              "type": "journal-article",
+              "authors": [
+                "Matthew Little",
+                "Meghan Brockington",
+                "Amira Aker",
+                "Tiff-Annie Kenny",
+                "Federico Andrade-Rivas",
+                "Pierre Ayotte",
+                "Mélanie Lemire"
+              ],
+              "url": "https://doi.org/10.1017/S1368980024000491",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "170622899",
+              "title": "Maternal disability and initiation and duration of breastfeeding: analysis of a Canadian cross-sectional survey.",
+              "year": 2023,
+              "month": 12,
+              "day": 0,
+              "doi": "10.1186/s13006-023-00608-7",
+              "journal": "International breastfeeding journal",
+              "type": "journal-article",
+              "authors": [
+                "Brown HK",
+                "Pablo L",
+                "Scime NV",
+                "Aker AM",
+                "Dennis CL"
+              ],
+              "url": "http://europepmc.org/abstract/med/38129879",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "144997862",
+              "title": "Cardiometabolic health and per and polyfluoroalkyl substances in an Inuit population",
+              "year": 2023,
+              "month": 11,
+              "day": 0,
+              "doi": "10.1016/j.envint.2023.108283",
+              "journal": "Environment International",
+              "type": "journal-article",
+              "authors": [
+                "Amira Aker",
+                "Pierre Ayotte",
+                "Élyse Caron-Beaudoin",
+                "Sylvie Ricard",
+                "Éric Gaudreau",
+                "Mélanie Lemire"
+              ],
+              "url": "https://doi.org/10.1016/j.envint.2023.108283",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "138409135",
+              "title": "Canada needs a funding institute focused on environments, health, and societal well-being research.",
+              "year": 2023,
+              "month": 7,
+              "day": 6,
+              "doi": "10.17269/s41997-023-00802-4",
+              "journal": "Canadian journal of public health = Revue canadienne de sante publique",
+              "type": "journal-article",
+              "authors": [
+                "Buse CG",
+                "Aker A",
+                "McLaren L",
+                "HubkaRao T",
+                "Sweeney E",
+                "van der Jagt RHC",
+                "Members of the National Working Group on Environments, Health Research"
+              ],
+              "url": "https://doi.org/10.17269/s41997-023-00802-4",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "138409146",
+              "title": "Evaluating Facilitators’ Experience Delivering a Stress-Reducing Intervention for Indigenous Women with and without HIV",
+              "year": 2023,
+              "month": 6,
+              "day": 2,
+              "doi": "10.1155/2023/9219287",
+              "journal": "Health & Social Care in the Community",
+              "type": "journal-article",
+              "authors": [
+                "Jenna Quelch",
+                "Randy Jackson",
+                "Elaine Toombs",
+                "Margaret Robinson",
+                "Lena Serghides",
+                "Amira Aker",
+                "Holly Gauvin",
+                "Candida Sinoway",
+                "Linda Barkman",
+                "Christopher Mushquash",
+                "Dionne Gesink",
+                "Marni Amirault",
+                "Anita C. Benoit"
+              ],
+              "url": "http://dx.doi.org/10.1155/2023/9219287",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890847",
+              "title": "The impact of a stress management intervention including cultural components on stress biomarker levels and mental health indicators among indigenous women.",
+              "year": 2023,
+              "month": 1,
+              "day": 18,
+              "doi": "10.1007/s10865-023-00391-0",
+              "journal": "Journal of behavioral medicine",
+              "type": "journal-article",
+              "authors": [
+                "Aker A",
+                "Serghides L",
+                "Cotnam J",
+                "Jackson R",
+                "Robinson M",
+                "Gauvin H",
+                "Mushquash C",
+                "Gesink D",
+                "Amirault M",
+                "Benoit AC"
+              ],
+              "url": "https://doi.org/10.1007/s10865-023-00391-0",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "120732205",
+              "title": "Plasma concentrations of perfluoroalkyl acids and their determinants in youth and adults from Nunavik, Canada",
+              "year": 2023,
+              "month": 1,
+              "day": 0,
+              "doi": "10.1016/j.chemosphere.2022.136797",
+              "journal": "Chemosphere",
+              "type": "journal-article",
+              "authors": [
+                "Amira Aker",
+                "Pierre Ayotte",
+                "Elyse Caron-Beaudoin",
+                "Amila De Silva",
+                "Sylvie Ricard",
+                "Éric Gaudreau",
+                "Melanie Lemire"
+              ],
+              "url": "https://doi.org/10.1016/j.chemosphere.2022.136797",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "109679973",
+              "title": "Perfluoroalkyl acid and bisphenol-A exposure via food sources in four First Nation communities in Quebec, Canada",
+              "year": 2023,
+              "month": 1,
+              "day": 0,
+              "doi": "10.1017/s1368980022000581",
+              "journal": "Public Health Nutrition",
+              "type": "journal-article",
+              "authors": [
+                "Claudelle Dubeau",
+                "Amira Aker",
+                "Élyse Caron-Beaudoin",
+                "Pierre Ayotte",
+                "Caty Blanchette",
+                "Nancy Gros-Louis McHugh",
+                "Mélanie Lemire"
+              ],
+              "url": "https://doi.org/10.1017/S1368980022000581",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890745",
+              "title": "Associations between dietary profiles and perfluoroalkyl acids in Inuit youth and adults.",
+              "year": 2022,
+              "month": 10,
+              "day": 20,
+              "doi": "10.1016/j.scitotenv.2022.159557",
+              "journal": "The Science of the total environment",
+              "type": "journal-article",
+              "authors": [
+                "Aker A",
+                "Ayotte P",
+                "Caron-Beaudoin É",
+                "De Silva A",
+                "Ricard S",
+                "Lemire M"
+              ],
+              "url": "https://doi.org/10.1016/j.scitotenv.2022.159557",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890705",
+              "title": "The association between asthma and perinatal mental illness: a population-based cohort study.",
+              "year": 2022,
+              "month": 6,
+              "day": 1,
+              "doi": "10.1093/ije/dyab160",
+              "journal": "International journal of epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Aker AM",
+                "Vigod SN",
+                "Dennis CL",
+                "Kaster T",
+                "Brown HK"
+              ],
+              "url": "https://europepmc.org/articles/PMC9189948",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "110635031",
+              "title": "Non-persistent exposures from plasticizers or plastic constituents in remote Arctic communities: a case for further research",
+              "year": 2022,
+              "month": 5,
+              "day": 0,
+              "doi": "10.1038/s41370-022-00425-w",
+              "journal": "Journal of Exposure Science & Environmental Epidemiology",
+              "type": "journal-article",
+              "authors": [
+                "Amira Aker",
+                "Élyse Caron-Beaudoin",
+                "Pierre Ayotte",
+                "Sylvie Ricard",
+                "Véronique Gilbert",
+                "Ellen Avard",
+                "Mélanie Lemire"
+              ],
+              "url": "https://doi.org/10.1038/s41370-022-00425-w",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "97988801",
+              "title": "Perinatal Complications as a Mediator of the Association Between Chronic Disease and Postpartum Mental Illness",
+              "year": 2022,
+              "month": 4,
+              "day": 0,
+              "doi": "10.1089/jwh.2021.0014",
+              "journal": "Journal of Women's Health",
+              "type": "journal-article",
+              "authors": [
+                "Amira M. Aker",
+                "Simone N. Vigod",
+                "Cindy-Lee Dennis",
+                "Hilary K. Brown"
+              ],
+              "url": "https://doi.org/10.1089/jwh.2021.0014",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890790",
+              "title": "Proximity and density of unconventional natural gas wells and mental illness and substance use among pregnant individuals: An exploratory study in Canada.",
+              "year": 2022,
+              "month": 3,
+              "day": 21,
+              "doi": "10.1016/j.ijheh.2022.113962",
+              "journal": "International journal of hygiene and environmental health",
+              "type": "journal-article",
+              "authors": [
+                "Aker AM",
+                "Whitworth KW",
+                "Bosson-Rieutort D",
+                "Wendling G",
+                "Ibrahim A",
+                "Verner MA",
+                "Benoit AC",
+                "Caron-Beaudoin É"
+              ],
+              "url": "https://doi.org/10.1016/j.ijheh.2022.113962",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890577",
+              "title": "Association between pre-pregnancy multimorbidity and adverse maternal outcomes: A systematic review.",
+              "year": 2022,
+              "month": 1,
+              "day": 1,
+              "doi": "10.1177/26335565221096584",
+              "journal": "Journal of multimorbidity and comorbidity",
+              "type": "journal-article",
+              "authors": [
+                "Brown HK",
+                "McKnight A",
+                "Aker A"
+              ],
+              "url": "https://europepmc.org/articles/PMC9106308",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "223782175",
+              "title": "Associations between Dietary Profiles and Perfluoroalkyl Acids in Inuit Youth and Adults",
+              "year": 2022,
+              "month": 0,
+              "day": 0,
+              "doi": "10.2139/ssrn.4168679",
+              "journal": "",
+              "type": "preprint",
+              "authors": [
+                "Amira Aker",
+                "Pierre Ayotte",
+                "Élyse Caron-Beaudoin",
+                "Amila De Silva",
+                "Sylvie Ricard",
+                "Mélanie Lemire"
+              ],
+              "url": "https://doi.org/10.2139/ssrn.4168679",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890775",
+              "title": "Exposure to benzene, toluene and polycyclic aromatic hydrocarbons in Nunavimmiut aged 16 years and over (Nunavik, Canada) - Qanuilirpitaa 2017 survey.",
+              "year": 2021,
+              "month": 12,
+              "day": 18,
+              "doi": "10.1016/j.envres.2021.112586",
+              "journal": "Environmental research",
+              "type": "journal-article",
+              "authors": [
+                "Caron-Beaudoin É",
+                "Ayotte P",
+                "Aker A",
+                "Blanchette C",
+                "Ricard S",
+                "Gilbert V",
+                "Avard E",
+                "Lemire M"
+              ],
+              "url": "https://doi.org/10.1016/j.envres.2021.112586",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890590",
+              "title": "The destruction of Gaza's infrastructure is exacerbating environmental health impacts.",
+              "year": 2021,
+              "month": 12,
+              "day": 16,
+              "doi": "10.1097/ee9.0000000000000186",
+              "journal": "Environmental epidemiology (Philadelphia, Pa.)",
+              "type": "journal-article",
+              "authors": [
+                "Al-Hindi A",
+                "Aker A",
+                "Al-Delaimy WK"
+              ],
+              "url": "https://europepmc.org/articles/PMC8835639",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "97988802",
+              "title": "Multimorbidity and use of reversible contraception: Results from a Canadian cross-sectional survey",
+              "year": 2021,
+              "month": 12,
+              "day": 0,
+              "doi": "10.1016/j.contraception.2021.07.109",
+              "journal": "Contraception",
+              "type": "journal-article",
+              "authors": [
+                "Hilary K. Brown",
+                "Amira Aker",
+                "Susitha Wanigaratne"
+              ],
+              "url": "https://doi.org/10.1016/j.contraception.2021.07.109",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890595",
+              "title": "Asthma Severity and Control and Their Association With Perinatal Mental Illness.",
+              "year": 2021,
+              "month": 8,
+              "day": 26,
+              "doi": "10.1177/07067437211039790",
+              "journal": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+              "type": "journal-article",
+              "authors": [
+                "Aker AM",
+                "Stephenson AL",
+                "Wilton AS",
+                "Vigod SN",
+                "Dennis CL",
+                "Guttmann A",
+                "Brown HK"
+              ],
+              "url": "https://europepmc.org/articles/PMC8978216",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890763",
+              "title": "Psychosocial status modifies the effect of maternal blood metal and metalloid concentrations on birth outcomes.",
+              "year": 2021,
+              "month": 2,
+              "day": 3,
+              "doi": "10.1016/j.envint.2021.106418",
+              "journal": "Environment international",
+              "type": "journal-article",
+              "authors": [
+                "Ashrap P",
+                "Aker A",
+                "Watkins DJ",
+                "Mukherjee B",
+                "Rosario-Pabón Z",
+                "Vélez-Vega CM",
+                "Alshawabkeh A",
+                "Cordero JF",
+                "Meeker JD"
+              ],
+              "url": "https://europepmc.org/articles/PMC7897320",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890821",
+              "title": "Interactions between chemicals and non-chemical stressors: The modifying effect of life events on the association between triclocarban, phenols and parabens with gestational length in a Puerto Rican cohort.",
+              "year": 2019,
+              "month": 10,
+              "day": 31,
+              "doi": "10.1016/j.scitotenv.2019.134719",
+              "journal": "The Science of the total environment",
+              "type": "journal-article",
+              "authors": [
+                "Aker A",
+                "McConnell RER",
+                "Loch-Caruso R",
+                "Park SK",
+                "Mukherjee B",
+                "Rosario ZY",
+                "Vélez-Vega CM",
+                "Huerta-Montanez G",
+                "Alshawabkeh AN",
+                "Cordero JF",
+                "Meeker JD"
+              ],
+              "url": "https://europepmc.org/articles/PMC6957748",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "170622900",
+              "title": "Estimating Outcome-Exposure Associations when Exposure Biomarker Detection Limits vary Across Batches.",
+              "year": 2019,
+              "month": 9,
+              "day": 0,
+              "doi": "10.1097/ede.0000000000001052",
+              "journal": "Epidemiology (Cambridge, Mass.)",
+              "type": "journal-article",
+              "authors": [
+                "Boss J",
+                "Mukherjee B",
+                "Ferguson KK",
+                "Aker A",
+                "Alshawabkeh AN",
+                "Cordero JF",
+                "Meeker JD",
+                "Kim S"
+              ],
+              "url": "http://europepmc.org/abstract/med/31299670",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890829",
+              "title": "A repeated measures study of phenol, paraben and Triclocarban urinary biomarkers and circulating maternal hormones during gestation in the Puerto Rico PROTECT cohort.",
+              "year": 2019,
+              "month": 4,
+              "day": 2,
+              "doi": "10.1186/s12940-019-0459-5",
+              "journal": "Environmental health : a global access science source",
+              "type": "journal-article",
+              "authors": [
+                "Aker AM",
+                "Ferguson KK",
+                "Rosario ZY",
+                "Mukherjee B",
+                "Alshawabkeh AN",
+                "Calafat AM",
+                "Cordero JF",
+                "Meeker JD"
+              ],
+              "url": "https://europepmc.org/articles/PMC6444601",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890833",
+              "title": "The associations between prenatal exposure to triclocarban, phenols and parabens with gestational age and birth weight in northern Puerto Rico.",
+              "year": 2018,
+              "month": 10,
+              "day": 31,
+              "doi": "10.1016/j.envres.2018.10.030",
+              "journal": "Environmental research",
+              "type": "journal-article",
+              "authors": [
+                "Aker AM",
+                "Ferguson KK",
+                "Rosario ZY",
+                "Mukherjee B",
+                "Alshawabkeh AN",
+                "Cordero JF",
+                "Meeker JD"
+              ],
+              "url": "https://europepmc.org/articles/PMC6347499",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890837",
+              "title": "Associations between maternal phenol and paraben urinary biomarkers and maternal hormones during pregnancy: A repeated measures study.",
+              "year": 2018,
+              "month": 2,
+              "day": 1,
+              "doi": "10.1016/j.envint.2018.01.006",
+              "journal": "Environment international",
+              "type": "journal-article",
+              "authors": [
+                "Aker AM",
+                "Johns L",
+                "McElrath TF",
+                "Cantonwine DE",
+                "Mukherjee B",
+                "Meeker JD"
+              ],
+              "url": "https://europepmc.org/articles/PMC5866216",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890802",
+              "title": "Phenols and parabens in relation to reproductive and thyroid hormones in pregnant women.",
+              "year": 2016,
+              "month": 7,
+              "day": 21,
+              "doi": "10.1016/j.envres.2016.07.002",
+              "journal": "Environmental research",
+              "type": "journal-article",
+              "authors": [
+                "Aker AM",
+                "Watkins DJ",
+                "Johns LE",
+                "Ferguson KK",
+                "Soldin OP",
+                "Anzalota Del Toro LV",
+                "Alshawabkeh AN",
+                "Cordero JF",
+                "Meeker JD"
+              ],
+              "url": "https://europepmc.org/articles/PMC5071140",
+              "first_seen": "2026-11-19"
+            },
+            {
+              "put_code": "136890842",
+              "title": "Lung cancer risk from radon in Ontario, Canada: how many lung cancers can we prevent?",
+              "year": 2013,
+              "month": 8,
+              "day": 28,
+              "doi": "10.1007/s10552-013-0278-x",
+              "journal": "Cancer causes & control : CCC",
+              "type": "journal-article",
+              "authors": [
+                "Peterson E",
+                "Aker A",
+                "Kim J",
+                "Li Y",
+                "Brand K",
+                "Copes R"
+              ],
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23982909/?tool=EBI",
+              "first_seen": "2026-11-19"
+            }
+          ]
+        }
+      ]
+    },
     "phd": {
       "title": "PhD Students",
       "file": "phd.html",
@@ -91667,6 +92636,7 @@
       "doi": "10.1007/s40572-026-00526-w",
       "groups": [
         "Faculty",
+        "Adjunct Faculty",
         "PhD Students"
       ],
       "people": [
@@ -91680,6 +92650,12 @@
           "name": "Mary Willis",
           "groups": [
             "Faculty"
+          ]
+        },
+        {
+          "name": "Amira Aker",
+          "groups": [
+            "Adjunct Faculty"
           ]
         },
         {
@@ -91715,6 +92691,29 @@
           "name": "Audrey Murchland",
           "groups": [
             "Postdocs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "School-based exposures to oil and gas development for public school children in the United States.",
+      "year": 2026,
+      "doi": "10.1038/s41370-026-00864-9",
+      "groups": [
+        "Faculty",
+        "Adjunct Faculty"
+      ],
+      "people": [
+        {
+          "name": "Mary Willis",
+          "groups": [
+            "Faculty"
+          ]
+        },
+        {
+          "name": "Amira Aker",
+          "groups": [
+            "Adjunct Faculty"
           ]
         }
       ]
