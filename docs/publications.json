@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19 17:48 UTC",
+  "generated_at": "2026-11-23 22:27 UTC",
   "source": "ORCID public API v3.0 (no other sources)",
   "failures": [],
   "groups": {
@@ -87915,8 +87915,32 @@
           "orcid": "0009-0006-1602-528X",
           "slug": "alick-sixpence",
           "status": "ok",
-          "work_count": 0,
-          "works": []
+          "work_count": 1,
+          "works": [
+            {
+              "put_code": "234024133",
+              "title": "Comparing approaches for chemoprevention for school-based malaria control in Malawi: an open label, randomized, controlled clinical trial",
+              "year": 2024,
+              "month": 10,
+              "day": 0,
+              "doi": "10.1016/j.eclinm.2024.102832",
+              "journal": "eClinicalMedicine",
+              "type": "journal-article",
+              "authors": [
+                "Alick Sixpence",
+                "Maclean Vokhiwa",
+                "Wangisani Kumalakwaanthu",
+                "Nicola J. Pitchford",
+                "Karl B. Seydel",
+                "Laurence S. Magder",
+                "Miriam K. Laufer",
+                "Don P. Mathanga",
+                "Lauren M. Cohee"
+              ],
+              "url": "http://dx.doi.org/10.1016/j.eclinm.2024.102832",
+              "first_seen": "2026-11-23"
+            }
+          ]
         },
         {
           "name": "Rachel Slimovitch",
