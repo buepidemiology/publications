@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23 22:27 UTC",
+  "generated_at": "2026-11-24 17:41 UTC",
   "source": "ORCID public API v3.0 (no other sources)",
   "failures": [],
   "groups": {
@@ -89046,6 +89046,56 @@
           "status": "ok",
           "work_count": 0,
           "works": []
+        },
+        {
+          "name": "Yi-Ting Hana Lee",
+          "orcid": "0000-0001-5859-847X",
+          "slug": "yi-ting-hana-lee",
+          "status": "ok",
+          "work_count": 2,
+          "works": [
+            {
+              "put_code": "183290107",
+              "title": "Bringing climate health conversations to frontline clinics: A qualitative post-intervention assessment of utilization of the Climate Resilience for Frontline Clinics Toolkit",
+              "year": 2025,
+              "month": 5,
+              "day": 0,
+              "doi": "10.1016/j.joclim.2025.100444",
+              "journal": "The Journal of Climate Change and Health",
+              "type": "journal-article",
+              "authors": [
+                "Yi-Ting Hana Lee",
+                "Mingyue Ma",
+                "Caroline Sarpy",
+                "Casey Dai",
+                "Jinia Sarkar",
+                "Chelsea Heberlein",
+                "Theodore Miles",
+                "Caleb J. Dresser"
+              ],
+              "url": "https://doi.org/10.1016/j.joclim.2025.100444",
+              "first_seen": "2026-11-24"
+            },
+            {
+              "put_code": "140445495",
+              "title": "Association between early care and education centres policies and practices and children's healthy behaviours",
+              "year": 2023,
+              "month": 11,
+              "day": 0,
+              "doi": "10.1002/hpm.3698",
+              "journal": "The International Journal of Health Planning and Management",
+              "type": "journal-article",
+              "authors": [
+                "Yi‐Ting Hana Lee",
+                "Qi Zhang",
+                "Mohnd Elmontser",
+                "Elizabeth Stevenson",
+                "Julie A. Gazmararian"
+              ],
+              "url": "https://doi.org/10.1002/hpm.3698",
+              "first_seen": "2026-11-24"
+            }
+          ]
         },
         {
           "name": "Sachelly Julian-Serrano",
